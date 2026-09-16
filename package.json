@@ -13,6 +13,7 @@
     "lint": "npm --workspace apps/web run lint",
     "typecheck": "npm --workspace apps/web run typecheck",
     "test": "npm --workspace apps/web run test",
+    "test:rls": "psql \"$DATABASE_URL\" -v ON_ERROR_STOP=1 -f supabase/tests/rls_regression.sql",
     "check": "npm run typecheck && npm run build && npm run test"
   },
   "engines": {

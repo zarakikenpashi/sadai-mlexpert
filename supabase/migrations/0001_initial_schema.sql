@@ -191,6 +191,25 @@ as $$
   );
 $$;
 
+create or replace function current_organization_accepts_mutations(target_organization_id uuid)
+returns boolean
+language sql
+stable
+security definer
+set search_path = public
+as $$
+  select coalesce(
+    (
+      select subscription.status in ('trial', 'active', 'grace')
+      from subscriptions subscription
+      where subscription.organization_id = target_organization_id
+      order by subscription.effective_at desc, subscription.created_at desc
+      limit 1
+    ),
+    false
+  );
+$$;
+
 create policy "members can read their organizations"
   on organizations for select
   using (current_user_is_org_member(id));
@@ -229,14 +248,20 @@ create policy "members can read subscription status history"
     )
   );
 
-create policy "members can read companies in their cabinet"
+create policy "authorized users can read assigned companies"
   on companies for select
-  using (current_user_is_org_member(organization_id));
+  using (current_user_can_access_company(id));
 
 create policy "admins can manage companies in their cabinet"
   on companies for all
-  using (current_user_is_org_admin(organization_id))
-  with check (current_user_is_org_admin(organization_id));
+  using (
+    current_user_is_org_admin(organization_id)
+    and current_organization_accepts_mutations(organization_id)
+  )
+  with check (
+    current_user_is_org_admin(organization_id)
+    and current_organization_accepts_mutations(organization_id)
+  );
 
 create policy "members can read company assignments"
   on company_members for select
@@ -244,8 +269,14 @@ create policy "members can read company assignments"
 
 create policy "admins can manage company assignments"
   on company_members for all
-  using (current_user_is_org_admin(organization_id))
-  with check (current_user_is_org_admin(organization_id));
+  using (
+    current_user_is_org_admin(organization_id)
+    and current_organization_accepts_mutations(organization_id)
+  )
+  with check (
+    current_user_is_org_admin(organization_id)
+    and current_organization_accepts_mutations(organization_id)
+  );
 
 create policy "authorized users can read fiscal years"
   on fiscal_years for select
@@ -253,8 +284,14 @@ create policy "authorized users can read fiscal years"
 
 create policy "admins can manage fiscal years"
   on fiscal_years for all
-  using (current_user_is_org_admin(organization_id))
-  with check (current_user_is_org_admin(organization_id));
+  using (
+    current_user_is_org_admin(organization_id)
+    and current_organization_accepts_mutations(organization_id)
+  )
+  with check (
+    current_user_is_org_admin(organization_id)
+    and current_organization_accepts_mutations(organization_id)
+  );
 
 create policy "authorized users can read journals"
   on journals for select
@@ -262,8 +299,14 @@ create policy "authorized users can read journals"
 
 create policy "admins can manage journals"
   on journals for all
-  using (current_user_is_org_admin(organization_id))
-  with check (current_user_is_org_admin(organization_id));
+  using (
+    current_user_is_org_admin(organization_id)
+    and current_organization_accepts_mutations(organization_id)
+  )
+  with check (
+    current_user_is_org_admin(organization_id)
+    and current_organization_accepts_mutations(organization_id)
+  );
 
 create policy "members can read accounts in their cabinet"
   on accounts for select
@@ -271,8 +314,16 @@ create policy "members can read accounts in their cabinet"
 
 create policy "admins can manage accounts in their cabinet"
   on accounts for all
-  using (organization_id is not null and current_user_is_org_admin(organization_id))
-  with check (organization_id is not null and current_user_is_org_admin(organization_id));
+  using (
+    organization_id is not null
+    and current_user_is_org_admin(organization_id)
+    and current_organization_accepts_mutations(organization_id)
+  )
+  with check (
+    organization_id is not null
+    and current_user_is_org_admin(organization_id)
+    and current_organization_accepts_mutations(organization_id)
+  );
 
 create policy "authorized users can read entries"
   on entries for select
@@ -282,13 +333,22 @@ create policy "authorized users can create draft entries"
   on entries for insert
   with check (
     status = 'draft'
+    and current_organization_accepts_mutations(organization_id)
     and current_user_can_access_company(company_id)
   );
 
 create policy "authorized users can update draft entries"
   on entries for update
-  using (status = 'draft' and current_user_can_access_company(company_id))
-  with check (status = 'draft' and current_user_can_access_company(company_id));
+  using (
+    status = 'draft'
+    and current_organization_accepts_mutations(organization_id)
+    and current_user_can_access_company(company_id)
+  )
+  with check (
+    status = 'draft'
+    and current_organization_accepts_mutations(organization_id)
+    and current_user_can_access_company(company_id)
+  );
 
 create policy "authorized users can read entry lines"
   on entry_lines for select
@@ -309,6 +369,7 @@ create policy "authorized users can manage draft entry lines"
       from entries entry
       where entry.id = entry_lines.entry_id
         and entry.status = 'draft'
+        and current_organization_accepts_mutations(entry.organization_id)
         and current_user_can_access_company(entry.company_id)
     )
   )
@@ -318,6 +379,7 @@ create policy "authorized users can manage draft entry lines"
       from entries entry
       where entry.id = entry_lines.entry_id
         and entry.status = 'draft'
+        and current_organization_accepts_mutations(entry.organization_id)
         and current_user_can_access_company(entry.company_id)
     )
   );

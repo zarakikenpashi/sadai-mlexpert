@@ -29,6 +29,19 @@ npm run dev
 
 L’application web est dans `apps/web`.
 
+## Tests sécurité RLS
+
+La CI lance un PostgreSQL éphémère et exécute `supabase/tests/rls_regression.sql` via :
+
+```bash
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/mlexpert_test npm run test:rls
+```
+
+Ce test installe la migration Supabase, simule `auth.uid()` et vérifie au niveau base que :
+
+- un comptable affecté à une seule entreprise ne voit pas les autres entreprises du même cabinet ;
+- une organisation suspendue ne peut plus créer d’écritures.
+
 ## Règles importantes
 
 - Jamais de secrets dans GitHub.
