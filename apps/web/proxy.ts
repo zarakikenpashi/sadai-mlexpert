@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const protectedPrefixes = ['/entreprises', '/administration'];
+const protectedPrefixes = ['/abonnement', '/entreprises', '/exercices', '/plan-comptable', '/journaux', '/saisie', '/import', '/etats', '/administration'];
 const authCookieNames = ['sb-access-token', 'supabase-auth-token', 'mlexpert-session'];
 
 function hasAuthCookie(request: NextRequest) {
@@ -20,5 +20,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/entreprises/:path*', '/administration/:path*']
+  matcher: ['/abonnement/:path*', '/entreprises/:path*', '/exercices/:path*', '/plan-comptable/:path*', '/journaux/:path*', '/saisie/:path*', '/import/:path*', '/etats/:path*', '/administration/:path*']
 };

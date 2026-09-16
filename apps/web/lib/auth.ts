@@ -20,7 +20,7 @@ const rolePermissions: Record<OrganizationRole, string[]> = {
   reader: ['state:read', 'export:create', 'attachment:read']
 };
 
-const protectedRoutes = new Set(['/entreprises', '/administration']);
+const protectedRoutes = new Set(['/abonnement', '/entreprises', '/exercices', '/plan-comptable', '/journaux', '/saisie', '/import', '/etats', '/administration']);
 
 export function canInviteRole(input: { inviterRole: OrganizationRole; invitedRole: OrganizationRole }): boolean {
   if (input.inviterRole === 'owner') return ['admin', 'accountant', 'reader'].includes(input.invitedRole);

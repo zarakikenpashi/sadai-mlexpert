@@ -58,8 +58,10 @@ test('expired or revoked invitations cannot be accepted', () => {
 });
 
 test('protected MVP routes reject anonymous sessions', () => {
-  assert.equal(routeAccessForSession({ path: '/entreprises', session: null }).allowed, false);
-  assert.equal(routeAccessForSession({ path: '/administration', session: null }).allowed, false);
+  for (const path of ['/abonnement', '/entreprises', '/exercices', '/plan-comptable', '/journaux', '/saisie', '/import', '/etats', '/administration']) {
+    assert.equal(routeAccessForSession({ path, session: null }).allowed, false, `${path} should reject anonymous sessions`);
+    assert.equal(routeAccessForSession({ path, session: { userId: 'u-owner' } }).allowed, true, `${path} should allow authenticated sessions`);
+  }
+
   assert.equal(routeAccessForSession({ path: '/login', session: null }).allowed, true);
-  assert.equal(routeAccessForSession({ path: '/entreprises', session: { userId: 'u-owner' } }).allowed, true);
 });
