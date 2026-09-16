@@ -52,6 +52,22 @@ create table if not exists organization_members (
   unique(organization_id, user_id)
 );
 
+create table if not exists organization_invitations (
+  id uuid primary key default gen_random_uuid(),
+  organization_id uuid not null references organizations(id) on delete cascade,
+  email text not null,
+  role text not null check (role in ('admin', 'accountant', 'reader')),
+  company_ids uuid[] not null default array[]::uuid[],
+  status text not null check (status in ('pending', 'accepted', 'revoked', 'expired')) default 'pending',
+  invited_by uuid not null,
+  accepted_by uuid,
+  expires_at timestamptz not null,
+  accepted_at timestamptz,
+  revoked_at timestamptz,
+  created_at timestamptz not null default now(),
+  unique(organization_id, email, status)
+);
+
 create table if not exists subscription_plans (
   id uuid primary key default gen_random_uuid(),
   code text not null unique,
@@ -185,6 +201,7 @@ create table if not exists attachment_audit_events (
 
 alter table organizations enable row level security;
 alter table organization_members enable row level security;
+alter table organization_invitations enable row level security;
 alter table subscription_plans enable row level security;
 alter table subscriptions enable row level security;
 alter table subscription_status_history enable row level security;
@@ -372,6 +389,19 @@ create policy "admins can manage organization memberships"
   on organization_members for all
   using (current_user_is_org_admin(organization_id))
   with check (current_user_is_org_admin(organization_id));
+
+create policy "admins can manage organization invitations"
+  on organization_invitations for all
+  using (current_user_is_org_admin(organization_id))
+  with check (
+    current_user_is_org_admin(organization_id)
+    and status in ('pending', 'revoked')
+    and expires_at > created_at
+  );
+
+create policy "admins can read organization invitations"
+  on organization_invitations for select
+  using (current_user_is_org_admin(organization_id));
 
 create policy "authenticated users can read subscription plans"
   on subscription_plans for select
