@@ -199,6 +199,32 @@ create table if not exists attachment_audit_events (
   created_at timestamptz not null default now()
 );
 
+create table if not exists imports (
+  id uuid primary key default gen_random_uuid(),
+  organization_id uuid not null references organizations(id) on delete cascade,
+  company_id uuid not null references companies(id) on delete cascade,
+  source_filename text not null,
+  status text not null check (status in ('uploaded', 'validated', 'imported', 'failed')) default 'uploaded',
+  rows_total integer not null default 0 check (rows_total >= 0),
+  rows_imported integer not null default 0 check (rows_imported >= 0),
+  error_report jsonb,
+  imported_by uuid not null,
+  created_at timestamptz not null default now(),
+  completed_at timestamptz
+);
+
+create table if not exists audit_logs (
+  id uuid primary key default gen_random_uuid(),
+  organization_id uuid not null references organizations(id) on delete cascade,
+  company_id uuid references companies(id) on delete set null,
+  actor_user_id uuid not null,
+  action text not null,
+  entity_type text not null,
+  entity_id uuid,
+  metadata jsonb not null default '{}'::jsonb,
+  created_at timestamptz not null default now()
+);
+
 alter table organizations enable row level security;
 alter table organization_members enable row level security;
 alter table organization_invitations enable row level security;
@@ -214,6 +240,8 @@ alter table entries enable row level security;
 alter table entry_lines enable row level security;
 alter table entry_attachments enable row level security;
 alter table attachment_audit_events enable row level security;
+alter table imports enable row level security;
+alter table audit_logs enable row level security;
 alter table storage.objects enable row level security;
 
 create or replace function current_user_is_org_member(target_organization_id uuid)
@@ -656,6 +684,33 @@ create policy "authorized users can create attachment audit events"
     actor_user_id = auth.uid()
     and current_user_can_access_company(company_id)
     and (attachment_id is null or current_user_can_access_attachment(attachment_id))
+  );
+
+create policy "authorized users can read company imports"
+  on imports for select
+  using (current_user_can_access_company(company_id));
+
+create policy "authorized users can create company imports"
+  on imports for insert
+  with check (
+    imported_by = auth.uid()
+    and current_organization_accepts_mutations(organization_id)
+    and current_user_has_company_permission(company_id, 'entry:create')
+  );
+
+create policy "members can read organization audit logs"
+  on audit_logs for select
+  using (
+    current_user_is_org_member(organization_id)
+    and (company_id is null or current_user_can_access_company(company_id))
+  );
+
+create policy "members can create organization audit logs"
+  on audit_logs for insert
+  with check (
+    actor_user_id = auth.uid()
+    and current_user_is_org_member(organization_id)
+    and (company_id is null or current_user_can_access_company(company_id))
   );
 
 create policy "authorized users can read entry attachment objects"

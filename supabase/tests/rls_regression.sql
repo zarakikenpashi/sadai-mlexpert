@@ -249,18 +249,64 @@ insert into attachment_audit_events (
   'uploaded'
 );
 
+insert into imports (
+  id,
+  organization_id,
+  company_id,
+  source_filename,
+  status,
+  rows_total,
+  rows_imported,
+  imported_by
+) values (
+  '80000000-0000-0000-0000-000000000001',
+  '00000000-0000-0000-0000-00000000000b',
+  '20000000-0000-0000-0000-000000000003',
+  'brouillard.xlsx',
+  'imported',
+  12,
+  12,
+  '10000000-0000-0000-0000-000000000006'
+);
+
+insert into audit_logs (
+  id,
+  organization_id,
+  company_id,
+  actor_user_id,
+  action,
+  entity_type,
+  entity_id
+) values (
+  '90000000-0000-0000-0000-000000000001',
+  '00000000-0000-0000-0000-00000000000b',
+  '20000000-0000-0000-0000-000000000003',
+  '10000000-0000-0000-0000-000000000006',
+  'import.created',
+  'import',
+  '80000000-0000-0000-0000-000000000001'
+);
+
 select set_config('request.jwt.claim.sub', '10000000-0000-0000-0000-000000000005', false);
 
 do $$
 declare
   visible_attachments int;
   visible_objects int;
+  visible_imports int;
+  visible_audit_logs int;
 begin
   select count(*) into visible_attachments from entry_attachments;
   select count(*) into visible_objects from storage.objects where bucket_id = 'entry-attachments';
+  select count(*) into visible_imports from imports;
+  select count(*) into visible_audit_logs from audit_logs;
 
   if visible_attachments <> 1 or visible_objects <> 1 then
     raise exception 'RLS leak: reader expected one attachment/object, saw attachments %, objects %', visible_attachments, visible_objects;
+  end if;
+
+  if visible_imports <> 1 or visible_audit_logs <> 1 then
+    raise exception 'RLS leak: reader expected one import/audit log, saw imports %, audit logs %', visible_imports, visible_audit_logs;
   end if;
 
   begin
