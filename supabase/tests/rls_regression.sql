@@ -28,8 +28,9 @@ $$;
 
 \i supabase/migrations/0001_initial_schema.sql
 
-grant usage on schema public, auth to authenticated, anon, service_role;
+grant usage on schema public, auth, storage to authenticated, anon, service_role;
 grant select, insert, update, delete on all tables in schema public to authenticated, anon, service_role;
+grant select, insert, update, delete on all tables in schema storage to authenticated, anon, service_role;
 grant execute on all functions in schema public to authenticated, anon, service_role;
 grant execute on function auth.uid() to authenticated, anon, service_role;
 
@@ -71,7 +72,7 @@ insert into company_members (organization_id, company_id, user_id, permissions) 
     '00000000-0000-0000-0000-00000000000b',
     '20000000-0000-0000-0000-000000000003',
     '10000000-0000-0000-0000-000000000006',
-    array['entry:create', 'entry:update', 'entry:validate', 'state:read', 'export:create']
+    array['entry:create', 'entry:update', 'entry:validate', 'attachment:create', 'attachment:delete', 'attachment:read', 'state:read', 'export:create']
   );
 
 insert into fiscal_years (id, organization_id, company_id, year, status) values
@@ -173,6 +174,117 @@ begin
     );
 
     raise exception 'RLS leak: reader read-only assignment accepted an entry insert';
+  exception
+    when insufficient_privilege then
+      null;
+  end;
+end
+$$;
+
+
+select set_config('request.jwt.claim.sub', '10000000-0000-0000-0000-000000000006', false);
+
+insert into entries (
+  id,
+  organization_id,
+  company_id,
+  fiscal_year_id,
+  journal_id,
+  piece_number,
+  label,
+  status
+) values (
+  '60000000-0000-0000-0000-000000000001',
+  '00000000-0000-0000-0000-00000000000b',
+  '20000000-0000-0000-0000-000000000003',
+  '40000000-0000-0000-0000-000000000002',
+  '50000000-0000-0000-0000-000000000002',
+  'ATT-001',
+  'Entry with private attachment',
+  'draft'
+);
+
+insert into storage.objects (bucket_id, name, owner_id, metadata) values (
+  'entry-attachments',
+  '00000000-0000-0000-0000-00000000000b/20000000-0000-0000-0000-000000000003/60000000-0000-0000-0000-000000000001/70000000-0000-0000-0000-000000000001/facture.pdf',
+  '10000000-0000-0000-0000-000000000006',
+  '{"mimetype":"application/pdf"}'::jsonb
+);
+
+insert into entry_attachments (
+  id,
+  organization_id,
+  company_id,
+  entry_id,
+  storage_path,
+  original_filename,
+  mime_type,
+  size_bytes,
+  uploaded_by
+) values (
+  '70000000-0000-0000-0000-000000000001',
+  '00000000-0000-0000-0000-00000000000b',
+  '20000000-0000-0000-0000-000000000003',
+  '60000000-0000-0000-0000-000000000001',
+  '00000000-0000-0000-0000-00000000000b/20000000-0000-0000-0000-000000000003/60000000-0000-0000-0000-000000000001/70000000-0000-0000-0000-000000000001/facture.pdf',
+  'facture.pdf',
+  'application/pdf',
+  2048,
+  '10000000-0000-0000-0000-000000000006'
+);
+
+insert into attachment_audit_events (
+  organization_id,
+  company_id,
+  entry_id,
+  attachment_id,
+  actor_user_id,
+  action
+) values (
+  '00000000-0000-0000-0000-00000000000b',
+  '20000000-0000-0000-0000-000000000003',
+  '60000000-0000-0000-0000-000000000001',
+  '70000000-0000-0000-0000-000000000001',
+  '10000000-0000-0000-0000-000000000006',
+  'uploaded'
+);
+
+select set_config('request.jwt.claim.sub', '10000000-0000-0000-0000-000000000005', false);
+
+do $$
+declare
+  visible_attachments int;
+  visible_objects int;
+begin
+  select count(*) into visible_attachments from entry_attachments;
+  select count(*) into visible_objects from storage.objects where bucket_id = 'entry-attachments';
+
+  if visible_attachments <> 1 or visible_objects <> 1 then
+    raise exception 'RLS leak: reader expected one attachment/object, saw attachments %, objects %', visible_attachments, visible_objects;
+  end if;
+
+  begin
+    insert into entry_attachments (
+      organization_id,
+      company_id,
+      entry_id,
+      storage_path,
+      original_filename,
+      mime_type,
+      size_bytes,
+      uploaded_by
+    ) values (
+      '00000000-0000-0000-0000-00000000000b',
+      '20000000-0000-0000-0000-000000000003',
+      '60000000-0000-0000-0000-000000000001',
+      '00000000-0000-0000-0000-00000000000b/20000000-0000-0000-0000-000000000003/60000000-0000-0000-0000-000000000001/70000000-0000-0000-0000-000000000099/blocked.pdf',
+      'blocked.pdf',
+      'application/pdf',
+      2048,
+      '10000000-0000-0000-0000-000000000005'
+    );
+
+    raise exception 'RLS leak: reader created an attachment without attachment:create';
   exception
     when insufficient_privilege then
       null;

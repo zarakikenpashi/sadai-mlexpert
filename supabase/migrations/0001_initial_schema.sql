@@ -1,6 +1,41 @@
 -- MLexpert initial schema draft.
 -- RLS is enabled on tenant-owned tables. Policies are intentionally strict and must be expanded with authenticated role claims during implementation.
 
+-- Minimal Storage schema bootstrap for local CI; Supabase self-hosted already provides these tables.
+create schema if not exists storage;
+
+create table if not exists storage.buckets (
+  id text primary key,
+  name text not null,
+  public boolean not null default false,
+  file_size_limit bigint,
+  allowed_mime_types text[]
+);
+
+create table if not exists storage.objects (
+  id uuid primary key default gen_random_uuid(),
+  bucket_id text not null references storage.buckets(id) on delete cascade,
+  name text not null,
+  owner_id uuid,
+  metadata jsonb,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  unique(bucket_id, name)
+);
+
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values (
+  'entry-attachments',
+  'entry-attachments',
+  false,
+  10485760,
+  array['application/pdf', 'image/jpeg', 'image/png']
+)
+on conflict (id) do update set
+  public = excluded.public,
+  file_size_limit = excluded.file_size_limit,
+  allowed_mime_types = excluded.allowed_mime_types;
+
 create table if not exists organizations (
   id uuid primary key default gen_random_uuid(),
   name text not null,
@@ -118,6 +153,36 @@ create table if not exists entry_lines (
   check ((debit > 0 and credit = 0) or (credit > 0 and debit = 0))
 );
 
+create table if not exists entry_attachments (
+  id uuid primary key default gen_random_uuid(),
+  organization_id uuid not null references organizations(id) on delete cascade,
+  company_id uuid not null references companies(id) on delete cascade,
+  entry_id uuid not null references entries(id) on delete cascade,
+  storage_bucket text not null default 'entry-attachments',
+  storage_path text not null unique,
+  original_filename text not null,
+  mime_type text not null check (mime_type in ('application/pdf', 'image/jpeg', 'image/png')),
+  size_bytes bigint not null check (size_bytes > 0 and size_bytes <= 10485760),
+  uploaded_by uuid not null,
+  deleted_at timestamptz,
+  deleted_by uuid,
+  deletion_reason text,
+  created_at timestamptz not null default now(),
+  check (storage_bucket = 'entry-attachments')
+);
+
+create table if not exists attachment_audit_events (
+  id uuid primary key default gen_random_uuid(),
+  organization_id uuid not null references organizations(id) on delete cascade,
+  company_id uuid not null references companies(id) on delete cascade,
+  entry_id uuid not null references entries(id) on delete cascade,
+  attachment_id uuid references entry_attachments(id) on delete set null,
+  actor_user_id uuid not null,
+  action text not null check (action in ('uploaded', 'viewed', 'signed_url_created', 'deleted')),
+  reason text,
+  created_at timestamptz not null default now()
+);
+
 alter table organizations enable row level security;
 alter table organization_members enable row level security;
 alter table subscription_plans enable row level security;
@@ -130,6 +195,9 @@ alter table journals enable row level security;
 alter table accounts enable row level security;
 alter table entries enable row level security;
 alter table entry_lines enable row level security;
+alter table entry_attachments enable row level security;
+alter table attachment_audit_events enable row level security;
+alter table storage.objects enable row level security;
 
 create or replace function current_user_is_org_member(target_organization_id uuid)
 returns boolean
@@ -236,6 +304,60 @@ as $$
     ),
     false
   );
+$$;
+
+create or replace function current_user_can_access_attachment(target_attachment_id uuid)
+returns boolean
+language sql
+stable
+security definer
+set search_path = public
+as $$
+  select exists (
+    select 1
+    from entry_attachments attachment
+    join entries entry on entry.id = attachment.entry_id
+    where attachment.id = target_attachment_id
+      and attachment.deleted_at is null
+      and current_user_can_access_company(entry.company_id)
+  );
+$$;
+
+create or replace function current_user_can_access_attachment_object(target_bucket_id text, target_name text)
+returns boolean
+language sql
+stable
+security definer
+set search_path = public
+as $$
+  select target_bucket_id = 'entry-attachments'
+    and exists (
+      select 1
+      from entry_attachments attachment
+      join entries entry on entry.id = attachment.entry_id
+      where attachment.storage_bucket = target_bucket_id
+        and attachment.storage_path = target_name
+        and attachment.deleted_at is null
+        and current_user_can_access_company(entry.company_id)
+    );
+$$;
+
+create or replace function current_user_can_upload_attachment_object(target_bucket_id text, target_name text)
+returns boolean
+language sql
+stable
+security definer
+set search_path = public
+as $$
+  select target_bucket_id = 'entry-attachments'
+    and exists (
+      select 1
+      from entries entry
+      where target_name like entry.organization_id::text || '/' || entry.company_id::text || '/' || entry.id::text || '/%'
+        and entry.status = 'draft'
+        and current_organization_accepts_mutations(entry.organization_id)
+        and current_user_has_company_permission(entry.company_id, 'attachment:create')
+    );
 $$;
 
 create policy "members can read their organizations"
@@ -415,3 +537,101 @@ create policy "authorized users can manage draft entry lines"
         and current_user_has_company_permission(entry.company_id, 'entry:update')
     )
   );
+
+create policy "authorized users can read entry attachments"
+  on entry_attachments for select
+  using (
+    deleted_at is null
+    and exists (
+      select 1
+      from entries entry
+      where entry.id = entry_attachments.entry_id
+        and current_user_can_access_company(entry.company_id)
+    )
+  );
+
+create policy "authorized users can create draft entry attachments"
+  on entry_attachments for insert
+  with check (
+    storage_bucket = 'entry-attachments'
+    and uploaded_by = auth.uid()
+    and current_organization_accepts_mutations(organization_id)
+    and exists (
+      select 1
+      from entries entry
+      where entry.id = entry_attachments.entry_id
+        and entry.status = 'draft'
+        and entry.organization_id = entry_attachments.organization_id
+        and entry.company_id = entry_attachments.company_id
+        and current_user_has_company_permission(entry.company_id, 'attachment:create')
+    )
+  );
+
+create policy "authorized users can delete draft entry attachments"
+  on entry_attachments for update
+  using (
+    deleted_at is null
+    and exists (
+      select 1
+      from entries entry
+      where entry.id = entry_attachments.entry_id
+        and entry.status = 'draft'
+        and current_user_has_company_permission(entry.company_id, 'attachment:delete')
+    )
+  )
+  with check (
+    deleted_at is not null
+    and deleted_by = auth.uid()
+    and exists (
+      select 1
+      from entries entry
+      where entry.id = entry_attachments.entry_id
+        and entry.status = 'draft'
+        and current_user_has_company_permission(entry.company_id, 'attachment:delete')
+    )
+  );
+
+create policy "admins can exceptionally delete validated entry attachments"
+  on entry_attachments for update
+  using (
+    deleted_at is null
+    and exists (
+      select 1
+      from entries entry
+      where entry.id = entry_attachments.entry_id
+        and entry.status = 'validated'
+        and current_user_is_org_admin(entry.organization_id)
+    )
+  )
+  with check (
+    deleted_at is not null
+    and deleted_by = auth.uid()
+    and length(coalesce(deletion_reason, '')) >= 8
+    and exists (
+      select 1
+      from entries entry
+      where entry.id = entry_attachments.entry_id
+        and entry.status = 'validated'
+        and current_user_is_org_admin(entry.organization_id)
+    )
+  );
+
+create policy "authorized users can read attachment audit events"
+  on attachment_audit_events for select
+  using (current_user_can_access_company(company_id));
+
+create policy "authorized users can create attachment audit events"
+  on attachment_audit_events for insert
+  with check (
+    actor_user_id = auth.uid()
+    and current_user_can_access_company(company_id)
+    and (attachment_id is null or current_user_can_access_attachment(attachment_id))
+  );
+
+create policy "authorized users can read entry attachment objects"
+  on storage.objects for select
+  using (current_user_can_access_attachment_object(bucket_id, name));
+
+create policy "authorized users can upload entry attachment objects"
+  on storage.objects for insert
+  with check (current_user_can_upload_attachment_object(bucket_id, name));

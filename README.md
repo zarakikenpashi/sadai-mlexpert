@@ -44,7 +44,9 @@ Ce test installe la migration Supabase, simule `auth.uid()` et vérifie au nivea
 - une affectation lecture seule ne peut pas créer d’écritures ;
 - une organisation suspendue ne peut plus créer d’écritures ;
 - `anon` ne voit aucune donnée même si des grants SQL existent ;
-- `service_role` conserve le contournement RLS attendu côté serveur uniquement.
+- `service_role` conserve le contournement RLS attendu côté serveur uniquement ;
+- les pièces jointes privées restent lisibles uniquement via l’accès à l’écriture/entreprise associée ;
+- un lecteur peut consulter une pièce jointe autorisée mais ne peut pas créer de pièce jointe sans `attachment:create`.
 
 ## Règles importantes
 

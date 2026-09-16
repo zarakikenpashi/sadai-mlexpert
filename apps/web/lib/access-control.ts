@@ -33,6 +33,7 @@ const ownerAdminActions = new Set([
   'entry:reverse',
   'attachment:create',
   'attachment:delete',
+  'attachment:read',
   'state:read',
   'export:create',
   'subscription:manage'
