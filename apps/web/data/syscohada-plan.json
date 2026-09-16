@@ -1,0 +1,7940 @@
+[
+  {
+    "code": "101000",
+    "label": "CAPITAL SOCIAL",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "101100",
+    "label": "CAPITAL SOUSCRIS,NON APPELE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "101200",
+    "label": "CAPITAL SOUSCRIT ,APPELE,NON VERSE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "101300",
+    "label": "CAPITAL SPOUSCRIT,APPELE,VERSE,NON",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "101400",
+    "label": "CAPITAL SOUSCRIT,APPELE,VERSE AMORT",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "101800",
+    "label": "CAPITAL SOUSCRIT SOUMIS A DES CONDI",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "102000",
+    "label": "CAPITAL PAR DOTATION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "102100",
+    "label": "DOTATION INITIALE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "102200",
+    "label": "DOTATIONS COMPLEMENTAIRES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "102800",
+    "label": "AUTRES DOTATIONS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "103000",
+    "label": "CAPITAL PERSONNEL",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "104000",
+    "label": "COMPTE DE L'EXPLOITANT",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "104100",
+    "label": "APPORTS TEMPORAIRES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "104200",
+    "label": "OPERATIONS COURANTES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "104300",
+    "label": "REMUNERATIONS,IMPOTS ET AUTRES CHAR",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "104700",
+    "label": "PRELEVEMENTS,D'AUTOCONSOMMATION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "104800",
+    "label": "AUTRES PRELEVEMENTS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "105000",
+    "label": "PRIMES LIEES AU CAPITAL SOCIAL",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "105100",
+    "label": "PRIME D'EMISSION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "105200",
+    "label": "PRIMED'APPORT",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "105300",
+    "label": "PRIME DE FUSION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "105400",
+    "label": "PRIMES DE CONVERSION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "105800",
+    "label": "AUTRES PRIMES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "106000",
+    "label": "ECART DE REEVELUATION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "106100",
+    "label": "ECARTS DE REEVELUATION LEGALE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "106200",
+    "label": "ECARTS DE REEVALUATION LIBRE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "109000",
+    "label": "APPORTEURS ,CAPITAL SOUSCRIT,NON AP",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "111000",
+    "label": "RESERVE LEGALE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "112000",
+    "label": "RESERVES STATUTAIRES OU COTRACTUELL",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "113000",
+    "label": "RESERVES REGLEMENTEES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "113100",
+    "label": "RESERVES DE PLUS VALUES NETTE A LON",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "113200",
+    "label": "RESERVES D'ATTRIBUTION GRATUITE D'A",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "113300",
+    "label": "RESERVES CONSECUTIVES A L'OCTROI DE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "113400",
+    "label": "RESERVES DES VALEURS MOBILIERES DON",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "113800",
+    "label": "AUTRES RESERVES REGLEMENTEES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "116820",
+    "label": "BILLETS DE FONDS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "118000",
+    "label": "AUTRES RESERVES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "118100",
+    "label": "RESRVES FACULTATIVES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "118800",
+    "label": "RESERVES DIVERSES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "121000",
+    "label": "REPPORT A NOUVEAU CREDITEUR",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "129000",
+    "label": "REPPORT A NOUVEAU DEBITEUR",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "129100",
+    "label": "PERTE NETTE A REPORTER",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "129200",
+    "label": "PERTE-AMORTISSEMENTS REPUTES DIFFER",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "130000",
+    "label": "RESULTATS EN INSTANCE D'AFFECTATION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "130100",
+    "label": "RESULTAT EN INSTANCE D'AFFECTATION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "130900",
+    "label": "RESULTATS EN INSTANCE D'AFFECTATION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "131000",
+    "label": "RESULTAT NET:BENEFICE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "132000",
+    "label": "MARGE COMMERCIALE(MC)",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "133000",
+    "label": "VALEUR AJOUTTE(VA)",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "134000",
+    "label": "EXEDENT BRUTE D'EXOLITATION(EBE)",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "135000",
+    "label": "RESULTAT D'EXPLOITATION (R E)",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "136000",
+    "label": "RESULTAT FINANCIER(R.F)",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "137000",
+    "label": "RESULTAT DES ACTIVITES ORDINAIRES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "138000",
+    "label": "RESULTAT HORS ACTIVITES ORDINAIRE(R",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "138100",
+    "label": "RESULTAT DE FUSION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "138200",
+    "label": "RESULTAT DE D'APPORT PARTIEL D'ACTI",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "138300",
+    "label": "RESULTAT DE SCISSION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "138400",
+    "label": "RESULTAT DE LIQUIDATION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "139000",
+    "label": "RESULTAT NET :PERTE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "141000",
+    "label": "SUBVENTION D'EQUIPEMENT",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "141100",
+    "label": "ETAT",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "141200",
+    "label": "REGIONS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "141300",
+    "label": "DEPARTEMENTS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "141400",
+    "label": "COMMUNES ET COLLECTIVITES PUBLIQUES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "141500",
+    "label": "ENTITES PUBLIQUE OU MIXTES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "141600",
+    "label": "ENTITES ET ORGANISMES PRIVES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "141700",
+    "label": "ORGANISMES INTERNATIONAUX",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "141800",
+    "label": "AUTRES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "148000",
+    "label": "AUTRES SUBVENTION D'INVESTISSEMENT",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "151000",
+    "label": "AMORTISSEMENT DEROGATOIRES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "152000",
+    "label": "PLUS -VALUES DE CESSION A REINVESTI",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "153000",
+    "label": "FONDS REGLEMENTES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "153100",
+    "label": "FONDS NATIONAL",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "153200",
+    "label": "PRELEVEMENT POUR LE BUDJET",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "154000",
+    "label": "PROVISIONS SPECIALES DE REEVALUATON",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "155000",
+    "label": "PROVISONS REGLEMENTEES RELATIVES AU",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "155100",
+    "label": "RECONSTITUTION DES GISEMENTS MINIER",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "156000",
+    "label": "PROVISIONS REGLEMENTEES RELATIVES A",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "156100",
+    "label": "HAUSSE DE PRIX",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "156200",
+    "label": "FLUCTUATION DES COURS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "157000",
+    "label": "PROVISIONS POUR INVESTISSEMENT",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "158000",
+    "label": "AUTRES PROVISIONS ET FONDS REGLEMEN",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "161000",
+    "label": "EMPRUNTS OGLIGATAIRES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "161100",
+    "label": "EMPRUNTS OBLIGATAIRES ORDINAIRES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "161200",
+    "label": "EMPRUNTS OBLIGATAIRES CONVERTISABLE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "161300",
+    "label": "EMPRUNTS OBLIGATAIRES REMBOURSABLES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "161800",
+    "label": "AUTRES EMPRUNTS OBLIGATAIRES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "162000",
+    "label": "EMPRUNTS ET DETTES AUPRES DES ETABB",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "163000",
+    "label": "AVANCES RECUES DE L'ETAT",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "164000",
+    "label": "AVANCES RECUES ET COMPTES COURANTS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "165000",
+    "label": "DEPOT ET CAUTIONNEMENTS RECUS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "165100",
+    "label": "DEPOTS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "165200",
+    "label": "CAUTIONNEMENTS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "166000",
+    "label": "INTERETS COURUS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "166100",
+    "label": "SUR EMPRUNTS OBLIGATAIRES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "166200",
+    "label": "SUR EMPRUNTS ET DETTES AUPRES DES E",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "166300",
+    "label": "SUR AVANCE RECUES DE L'ETAT",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "166400",
+    "label": "SUR AVANCE RECUES ET COMPTES COURAN",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "166500",
+    "label": "SUR DEPOTS ET CAUTIONNEMENTS RECUS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "166700",
+    "label": "SUR AVANCE ASSORTIES DE CONDITIONS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "166800",
+    "label": "SUR AUTRES EMPRUNTS ET DETTES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "167000",
+    "label": "AVANCES ASSORTIES DE CONDITIONS PAR",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "167100",
+    "label": "AVANCES BLOQUEES POUR AUGAMENTATION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "167200",
+    "label": "AVANCES CONDITIONNEES PAR L'ETATS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "167300",
+    "label": "AVANCES CONDITIONNEES PAR LES AUTRE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "167400",
+    "label": "AVANCES CONDITIONNEES PAR LES ORGAN",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "168000",
+    "label": "AUTRES EMPRUNTS ET DESTTES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "168100",
+    "label": "RENTES VIAGERE CAPITALISEES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "168300",
+    "label": "DETTES CONSECUTIVES A DES TITRES E",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "168400",
+    "label": "EMPRUNT PARTICIPATIFS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "168500",
+    "label": "PARTICIPATION DES TRAVAILLEURS AUX",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "168600",
+    "label": "EMPRUNTS ET DETTES CONTRACTES AUPRE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "172000",
+    "label": "DETTE DE LOCATION ACQUISITION/CREDI",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "173000",
+    "label": "DETTE DE LOCATION ACQUISITION/CREDI",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "174000",
+    "label": "DETTES DE LOCATION /AQUISITION/LOCA",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "176000",
+    "label": "INTERETS COURUS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "176200",
+    "label": "SUR DETTES DE LOCATION ACQUISITON/C",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "176300",
+    "label": "SUR DETTES DE LOCATIONS ACQUISITION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "176400",
+    "label": "SUR DETTE DE LOCATIONACQUISITION/LO",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "176800",
+    "label": "SUR DETTES DE LOCATION ACQUISITION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "178000",
+    "label": "AUTRES DETTES DE LOCATION ACQUISITI",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "181000",
+    "label": "DETTES LIEES A DES PARTICIPATIONS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "181100",
+    "label": "DETTES LIEES A DES PARTICIPATIONS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "181200",
+    "label": "DETTES LIEES A DES PARTICIPATIONS (",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "182000",
+    "label": "DETTES LIEES A DES SOCIETES EN PART",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "183000",
+    "label": "INTERETS COURUS SUR DETTES LIEES A",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "184000",
+    "label": "COMPTES PERMANENTS BLOQUES DES ETAB",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "185000",
+    "label": "COMPTES PERMANENT NON BLOQUEES DES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "186000",
+    "label": "COMPTES DE LIAISON CHARGES",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "187000",
+    "label": "COMPTES DE LIAISON PRODUITS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "188000",
+    "label": "COMPTES DE LIAISON DES SOCIETES EN",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "191000",
+    "label": "PROVISIONS SUR LITIGE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "192000",
+    "label": "PROVISIONS SUR GARANTIES DONNEES A",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "193000",
+    "label": "PROVISIONS POUR PERTE SUR MARCHES A",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "194000",
+    "label": "PROVISIONS POUR PERTE DE CHANGE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "195000",
+    "label": "PROVISION SUR IMPOTS",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "196000",
+    "label": "PROVISIONS POUR PENSION ET OBLIGATI",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "196100",
+    "label": "PROVISIONS POUR PENSION RT OBLIGATI",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "196200",
+    "label": "ACTIF DU REGIME DE RETRAIT",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "197000",
+    "label": "PROVISIONS POUR RESTRUCTURATION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "198000",
+    "label": "AUTRES PROVISIONS POUR RISQUE ET CH",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "198100",
+    "label": "PROVISIONS POUR AMENDES ET PENALITE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "198300",
+    "label": "PROVISION POUR PROPRE ASSUREUR",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "198400",
+    "label": "PROVISIONS POUR DEMANTELEMENT ET RE",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "198500",
+    "label": "PROVISIONS POUR DROITS A REDUCTION",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "198800",
+    "label": "PROVISIONS POUR DIVERS RISQUES ET C",
+    "class": "1",
+    "isStandard": true
+  },
+  {
+    "code": "211000",
+    "label": "FRAIS DE DEVELOPPEMENT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "212000",
+    "label": "BREVETS LICENCES CONCESSIONS ET DRO",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "212100",
+    "label": "BREVETS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "212200",
+    "label": "LICENCES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "212300",
+    "label": "CONCESSIONS DE SERVICE PUBLIC",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "212800",
+    "label": "AUTRES CONCESSIONS ET DROITS SIMILA",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "213000",
+    "label": "LOGICIELS ET SITES INTERNET",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "213100",
+    "label": "LOGICIELS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "213200",
+    "label": "SITES INTERNET",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "214000",
+    "label": "MARQUES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "215000",
+    "label": "FONDS COMMERCIAL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "216000",
+    "label": "DROIT DU BAIL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "217000",
+    "label": "INVESTISSEMENT DE CREATION",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "218000",
+    "label": "AUTRES DROITS ET VALEURS INCORPOREL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "218100",
+    "label": "FRAIS DE PROSPECTION ET D'EVALUATIO",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "218200",
+    "label": "COUTS D'OBTENTION DU CONTRAT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "218300",
+    "label": "FICHIERS CLIENTS NOTICES TITRES DE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "218400",
+    "label": "COUTS DE FINANCHISES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "218800",
+    "label": "DIVERS DROIT ET VALEURS INCORPORELS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "219000",
+    "label": "IMMOBILISATION INCORPORELLES EN COU",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "219100",
+    "label": "FRAIS DE DEVELOPPEMENT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "219300",
+    "label": "LOGICIELS ET INTERNET",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "219800",
+    "label": "AUTRES DROITS ET VALEURS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "221000",
+    "label": "TERRAINS AGRICOLES ET FORESTIERS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "221100",
+    "label": "TERRAINS D'EXPLOITATIONS AGRICOLES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "221200",
+    "label": "TERAINS D'EXPLOITATION FORESTIERE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "221800",
+    "label": "AUTRES TERRAINS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "222000",
+    "label": "TERRAINS NUS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "222100",
+    "label": "TERRAINS A BATIR",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "222800",
+    "label": "AUTRES TERRAINS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "223000",
+    "label": "TERRAINS BATIS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "223100",
+    "label": "POUR BATIMENT INDUSTRIELS ET AGRICO",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "223200",
+    "label": "POUR BATIMENT AMINISTRATIFS ET COMM",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "223400",
+    "label": "POUR BATIMENTS AFFECTES AUX AUTRES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "223500",
+    "label": "POUR BATIMENTS AFFECTES AUX OPERATI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "223800",
+    "label": "AUTRES TARRAINS BATIS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "224000",
+    "label": "TRAVAUX DE MISE EN VALEURS DE TARRA",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "224100",
+    "label": "PLANTATIONS D'ARBRES ET D'ARBUSTES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "224500",
+    "label": "AMELIORATIONS DU FONDS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "224800",
+    "label": "AUTRES TRAVAUX",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "225000",
+    "label": "TERRAINS DE CARRIERES-TREFONDS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "225100",
+    "label": "CARRIERS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "226000",
+    "label": "TARRAINS AMENAGES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "226100",
+    "label": "PARKINGS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "227000",
+    "label": "TERRAINS MIS EN CONCESSION",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "228000",
+    "label": "AUTRES TERRAINS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "228100",
+    "label": "TERRAINS -IMMEUBLE DE PLACEMENT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "228500",
+    "label": "TERRAINS DE LOGEMENTS AFFECTES AU P",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "228600",
+    "label": "TERRAINS DE LOCATION -AQUISITION",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "228800",
+    "label": "DIVERS TERRAINS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "229000",
+    "label": "AMENAGEMENTS DE TERRAINS EN COURS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "229100",
+    "label": "TERRAINS AGRICOLES ET FORESTIERS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "229200",
+    "label": "TERRAINS NUS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "229500",
+    "label": "TERRAINS DE CARRIERES -TREFONDS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "229800",
+    "label": "AUTRES TERRAINS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "231000",
+    "label": "BATIMENT INDUSTRIELS AGRICOLES ADMI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "231100",
+    "label": "BATIMENTS INDUSTRIELS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "231200",
+    "label": "BATIMENTS AGRICOLES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "231300",
+    "label": "BATIMENTS ADMINISTRATIFS ET COMMERC",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "231400",
+    "label": "BATIMENTS AFFECTES AU LOGEMENTS DU",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "231500",
+    "label": "BATIMENTS-IMMEUBLE DE PLACEMENT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "231600",
+    "label": "BATIMENTS DE LOCATION-AQUISITION",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "232000",
+    "label": "BATIMENTS INDUSTRIELS AGRICOLE ADMI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "232100",
+    "label": "BATIMENTS INDUSTRIELS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "232200",
+    "label": "BATIMENTS AGRICOLES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "232300",
+    "label": "BBATIMENTS ADMINISTRATIF ET COMMERC",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "232400",
+    "label": "BATIMENTS AFFECTES AU LOGEMENTS DU",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "232500",
+    "label": "BATIMENT-IMMEUBLES DE PLACEMENTS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "232600",
+    "label": "BATIMENTS DE LOCATION",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "233000",
+    "label": "OUVRAGES D'INFRASTRUCTURE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "233100",
+    "label": "VOIES DE TERRE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "233200",
+    "label": "VOIES DE FER",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "233300",
+    "label": "VOIES DE L'EAU",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "233400",
+    "label": "BARRAGES DIGUES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "233500",
+    "label": "PISTES D'AERODROME",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "234000",
+    "label": "AMENAGEMENTS AGENCEMENTS ET INSTALL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "234100",
+    "label": "INSTALLATIONS COMPLEXES SPECIALISE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "234200",
+    "label": "INSTALLATIONS COMPLEXES SPECIFIQU",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "234300",
+    "label": "INSTALLATIONS A CARACTERES SPECIFIQ",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "234400",
+    "label": "INSTALLATIONS A CARACTERE SPECIFIQU",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "234500",
+    "label": "AMENAGEMENTS ET AGENCEMENTS DES BAT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "235000",
+    "label": "AMENAGEMENTS ET BUREAUX",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "235100",
+    "label": "INSTALLATIONS GENERALES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "235800",
+    "label": "AUTRES AMENAGEMENTS DE BUREAUX",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "237000",
+    "label": "BATIMENTS INDUSTRIELS AGRICOLES ET",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "238000",
+    "label": "AUTRES INSTALLATIONS ET AGENCEMENTS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "239000",
+    "label": "BATIMENTS AMENAGEMENT AGENCEMENTS E",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "239100",
+    "label": "BATIMENTS EN COURS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "239200",
+    "label": "INSTALLATIONS EN COURS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "239300",
+    "label": "OUVRAGES D'INFRASTRUCTURES EN COURS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "239400",
+    "label": "AMENAGEMENTS AGENCEMENTS ET INSTALL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "239500",
+    "label": "AMENAGEMENTS DE BUREAUX EN COURS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "239800",
+    "label": "AUTRES INSTALLATINS ET AGENCEMENTS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "241000",
+    "label": "MATERIELS ET OUTILLAGES INDUSTRIEL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "241100",
+    "label": "MATERIEL INDUSTRIEL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "241200",
+    "label": "OUTILLAGES INDUSTRIELS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "241300",
+    "label": "MATERIELS COMMERCIALS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "241400",
+    "label": "OUTILLAGE COMMERCIAL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "241600",
+    "label": "MATERIEL ET OUTILLAGE INDUSTRIEL ET",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "242000",
+    "label": "MATERIEL ET OUTILLAGE INDUSTRIEL E",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "242100",
+    "label": "MATERIEL AGRICOLES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "242200",
+    "label": "OUTILLAGES AGRICOLES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "242600",
+    "label": "MATERIEL ET OUTILLAGE AGRICOLES ET",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "243000",
+    "label": "MATERIALS D'EMBALLAGES RECUPERABLE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "244000",
+    "label": "MATERIEL ET MOBILIER",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "244100",
+    "label": "MATERIEL DE BUREAU",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "244200",
+    "label": "MATERIEL INFORMATIQUE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "244300",
+    "label": "MATERIEL BUREAUTIQUE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "244400",
+    "label": "MATERIEL DE BUREAU",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "244500",
+    "label": "MATERIELS ET MOBILIERS -IMMEUBLES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "244600",
+    "label": "MATERIEL ET MOBILIER DE LOCATION",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "244700",
+    "label": "MATERIEL ET MOBILIER DE LOGEMENTS A",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "245000",
+    "label": "MATERIELS DE TRANSPORTS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "245100",
+    "label": "MATERIEL AUTOMOBILE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "245200",
+    "label": "MATERIEL FERROVIAIRE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "245300",
+    "label": "MATERIEL FLUVIAL LAGUNAIRE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "245400",
+    "label": "MATERIEL NAVAL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "245500",
+    "label": "MATERIEL AERIEN",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "245600",
+    "label": "MATERIEL DE TRANSPORT DE LOCATION -",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "245700",
+    "label": "MATERIEL HIPPOMOBILE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "245800",
+    "label": "AUTRES MATERIELS DE TRANSPORTS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "246000",
+    "label": "ACTIFS BIOLOGIQUES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "246100",
+    "label": "CHEPTEL ANIMAUX DE TRAIT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "246200",
+    "label": "CHEPTEL ANIMAUX REPRODUCTEURS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "246300",
+    "label": "ANIMAUX DE GARDE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "246500",
+    "label": "PLANTATION AGRCOLES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "246800",
+    "label": "AUTRES ACTIFS BIOLOGIQUES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "247000",
+    "label": "AGENCEMENTS AMENAGEMETS DU MATERIEL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "247100",
+    "label": "AGENCEMENT ET AMENAGEMENTS DU MATER",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "247200",
+    "label": "AGENCEMENTS ET AMENAGEMENTS DES AC",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "247800",
+    "label": "AUTRES AGENCEMENTS ET AMENAGEMENTS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "248000",
+    "label": "AUTRES MATERIELS ET MOBILIERS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "248100",
+    "label": "COLLECTIONS EY OEUVRES D'ART",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "248800",
+    "label": "DIVERS MATERIELS ET MOBILIERS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "249000",
+    "label": "MATERIELS ET ACTIFS BIOLOGIQUES EN",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "249100",
+    "label": "MATERIELS ET OUTILLAGES INDUSTRIELS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "249200",
+    "label": "MATERIELS ET OUTILLAGE AGRICOLES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "249300",
+    "label": "MATERIELS D'ELBALLAGES RECUPERABLES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "249400",
+    "label": "MATERIELS ET MOBILIER DE BUREAU",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "249500",
+    "label": "MATERIEL DE TRANSPORT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "249600",
+    "label": "ACTIFS BIOLOGIQUES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "249700",
+    "label": "AGENCEMENTS ET AMENEGEMENTS DU MATE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "249800",
+    "label": "AUTRES MATERIELS ET ACTIFS BIOLOGIQ",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "251000",
+    "label": "AVANCES ET ACOMPTES VERSES SUR IMMO",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "252000",
+    "label": "AVANCES ET ACOMPTES VERSES SUR IMM",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "261000",
+    "label": "TITRES DE PARTICIPATION DANS DES EN",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "262000",
+    "label": "TITRES DE PARTICIPATIONS DANS DES E",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "263000",
+    "label": "TITRES DE PARTICIPATIONS DANS DES E",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "265000",
+    "label": "PARTICIPATION DANS DES ORGANISMES P",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "266000",
+    "label": "PART DANS DES GROUPEMENTS D'INTERET",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "268000",
+    "label": "AUTRES TITRES DE PARTICIPATIONS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "271000",
+    "label": "PRETS ET CREANCES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "271100",
+    "label": "PRETS PARTICIPATIFS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "271200",
+    "label": "PRETS AUX ASSOCIES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "271300",
+    "label": "BILLETS DE FONDS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "271400",
+    "label": "CREANCES DE LOCATION FINANCEMENT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "271500",
+    "label": "TITRES PRETES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "271800",
+    "label": "AUTRES PRETS ET CREANCES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "272000",
+    "label": "PRETS AU PERSONNEL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "272200",
+    "label": "PRETS MOBILIERS ET D'INSTALLATION",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "273000",
+    "label": "CREANCES SUR ETATS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "273100",
+    "label": "RETENUES DE GARANTIES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "273300",
+    "label": "FONDS REGLEMENTE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "273400",
+    "label": "CREANCES SUR LE CONCEDANT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "273800",
+    "label": "AUTRES PRETS AU PERSONNEL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "274000",
+    "label": "TITRES D'IMMOBILISES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "274100",
+    "label": "TITRES IMMOBILISES DE L'ACTIVITES D",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "274200",
+    "label": "TITRES PARTICIPATIFS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "274300",
+    "label": "CERTIFICATS D'INVESTISSEMENTS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "274400",
+    "label": "PART DE FONDS COMMUN DE PLACEMENT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "274500",
+    "label": "OBLIGATIONS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "274600",
+    "label": "ACTIONS OU PARTS PROPRES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "274800",
+    "label": "AUTRES TITRES IMMOBILISES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "275000",
+    "label": "DEPOTS ET CAUTIONNEMENTS VERSEES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "275100",
+    "label": "DEPOTS POUR LOYERS D'AVANCE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "275200",
+    "label": "DEPOTS POUR L'ELECTRICITE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "275300",
+    "label": "DEPOTS POUR L'EAU",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "275400",
+    "label": "DEPOTS POUR GAZ",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "275500",
+    "label": "DEPOTS POUR LE TELEPHONES LE TELEX",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "275600",
+    "label": "CAUTIONNEMENT SUR MARCHES PUBLIQUE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "275700",
+    "label": "CAUTIONNEMENTS SUR AUTRES OPERATION",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "275800",
+    "label": "AUTRES DEPOTS ET CAUTIONNEMENTS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "276000",
+    "label": "INTERETS COURUS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "276100",
+    "label": "PRETS ET CREANCES NON COMMERCIALES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "276200",
+    "label": "PRETS DE PERSONNEL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "276300",
+    "label": "CREANCES SUR L'ETAT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "276400",
+    "label": "TITRES IMMOBILISATIONS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "276500",
+    "label": "DEPOTS ET CAUTIONNEMENTS VERSES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "276600",
+    "label": "CREANCES DE LOCATION FINANCEMENT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "276700",
+    "label": "CREANCES RATTACHEES A DES PARTICIPA",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "276800",
+    "label": "IMMOBILISATIONS FINANCEMENTS DIVERS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "277000",
+    "label": "CREANCES RATTACHEES A DES PARTICIPA",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "277100",
+    "label": "CREANCES RATTACHEES A DES PARTICIPA",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "277200",
+    "label": "CREANCES RATTACHEES A DES SOCI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "277300",
+    "label": "CREANCES RATTACHEES A DES SOCIETES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "277400",
+    "label": "AVANCES A DES GROUPEMENTS D'INTERET",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "278000",
+    "label": "IMMOBILISATIONS FINANCIERES DIVERSE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "278100",
+    "label": "CREANCES DIVERSES GROUPE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "278200",
+    "label": "CREANCES DIVERSES HORS GROUPE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "278400",
+    "label": "BANQUES DEPOTS A TERME",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "278500",
+    "label": "OR ET METEUX PRECIEUX",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "278800",
+    "label": "AUTRES IMMOBILISATIONS FINANCIERES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "281000",
+    "label": "AMORTISSEMENTS DES IMMOBILISATION I",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "281100",
+    "label": "AMORTISSEMENTS DES FRAIS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "281200",
+    "label": "AMORTISSEMENTS DES BREVETS LICENCES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "281300",
+    "label": "AMORTISSEMENTS DES LOGICIELS ET SIT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "281400",
+    "label": "AMORTISSEMENTS DES MARQUES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "281500",
+    "label": "AMORTISSSEMENTS DES FONDS COMMERCIA",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "281600",
+    "label": "AMORTISSEENTS DU DROIT AU BAIL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "281700",
+    "label": "AMORTISSEMENTS DES INVESTISSEMENTS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "281800",
+    "label": "AMORTISSEEMNETS DES AUTRES DROITS E",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "282000",
+    "label": "AMORTISSEMENTS DES TERRAINS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "282400",
+    "label": "AMORTISSEEMNETS DES TRAVAUX DE MISE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "283000",
+    "label": "AMORTISSEMENTS DES BATIMENTS INSTAL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "283100",
+    "label": "AMORTISSEMENTS DES BATIMENTS INDUST",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "283200",
+    "label": "AMORTISSEMENTS DES BATIMENTS INDUST",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "283300",
+    "label": "AMORTISSEEMNETS DES OUVRAGES D'INFR",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "283400",
+    "label": "AMORTISSEMENTS DES AMENAGEMENTS AGE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "283500",
+    "label": "AMORTISSEEMNTS DES AMENAGEMENTS DE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "283700",
+    "label": "AMORTISSEEMENTS DES BATIMENTS INDUS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "283800",
+    "label": "AMORTISSEEMENTS DES AUTRES INSTALL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "284000",
+    "label": "AMORTISSEEMENTS DU MATERIEL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "284100",
+    "label": "AMORTISSEEMNTS DU MATERIEL ET OUTIL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "284200",
+    "label": "AMORTISSEEMNTS DU MATERIEL ET OUTIL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "284300",
+    "label": "AMORTISSEEMENTS DU MATERIEL D'EMBAL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "284400",
+    "label": "AMORTISSEMENTS DU MATERIEL ET DU MO",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "284500",
+    "label": "AMORTISSELMENTS DU MATERIEL DE TRAN",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "284600",
+    "label": "AMORTISSEEMENTS DES ACTIFS BIOLOGIQ",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "284700",
+    "label": "AMORTISSEMENTS DES AGENCEMENTS ET",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "284800",
+    "label": "AMORTISSEEMENTS DES AUTRES MATERIEL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "291000",
+    "label": "DEPRECIATIONS DES IMMOBILISATIONS I",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "291100",
+    "label": "DEPRECIATIONS DES FRAIS DE DEVELOPP",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "291200",
+    "label": "DEPRECIATIONS DES BREVETS LICENCES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "291300",
+    "label": "DEPRECIATIONS DES LOGICIELS ET SITE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "291400",
+    "label": "DEPRECIATIONS DES MARQUES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "291500",
+    "label": "DEPRECIATIONS DU FONDS COMMERCIAL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "291600",
+    "label": "DEPRECIATIONS DU DROIT AU BAIL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "291700",
+    "label": "DEPRECIATIONS DES INVESTISSEEMENTS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "291800",
+    "label": "DEPRECIATIONS DES AUTRES DROITS ET",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "291900",
+    "label": "DEPRECIATIONS DES IMMOBILISATIONS I",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "292000",
+    "label": "DEPRECIATIONS DES TERRAINS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "292100",
+    "label": "DEPRECIATIONS DES TERRAINS AGRICOLE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "292200",
+    "label": "DEPRECIATIONS DES TERRAINS NUS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "292300",
+    "label": "DEPRECIATIONS DES TERRAINS BATIS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "292400",
+    "label": "DEPRECIATIONS DES TRAVAUX DE MISE E",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "292500",
+    "label": "DEPRECIATIONS DES TERRAINS DE CARRI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "292600",
+    "label": "DEPRECIATIONS DES TERRAINS AMENAGES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "292700",
+    "label": "DEPRECIATIONS DES TERRAINSMIS EN EN",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "292800",
+    "label": "DEPRECIATIONS DES AUTRES TERRAINS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "292900",
+    "label": "DEPRECIATIONS DES AMENAGEMENTS DE T",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "293000",
+    "label": "DEPRECIATION DES BATIMENTS INDUSTRI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "293100",
+    "label": "DEPRECIATIONS DES BATIMENTS INDUSTR",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "293200",
+    "label": "DEPRECIATION DES BATIMENTS INDUSTRI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "293300",
+    "label": "DEPRECIATION DES OUVRAGES D'INFRAST",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "293400",
+    "label": "DEPRECIATIONS DES AMENAGEMANTS AGEN",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "293500",
+    "label": "DEPRECIATIONS DES AMENAGEMENTS DE B",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "293700",
+    "label": "DEPRECIATIONS DES BATIMENTS INDUSTR",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "293800",
+    "label": "DEPRECIATIONS DES AUTRES INSTALLATI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "293900",
+    "label": "DEPRECIATIONS DES BATIMENTS ET INST",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "294000",
+    "label": "DEPRECIATIONS DE MATERIEL DU MOBILI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "294100",
+    "label": "DEPRECIATION DU MATERIEL ET OUTILLA",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "294200",
+    "label": "DEPRECIATIONS DU MATERIEL ET OUTILL",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "294300",
+    "label": "DEPRECIATIONS DU MATERIEL D'EMBALLA",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "294400",
+    "label": "DEPRECIATIONS DU MATERIEL ET DU MOB",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "294500",
+    "label": "DEPRECIATION DU MATERIEL DE TRANSPO",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "294600",
+    "label": "DEPRECIATIONS DES ACTIFS BIOLOGIQUE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "294700",
+    "label": "DEPRECIATIONS DES AGENCEMENTS ET AM",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "294800",
+    "label": "DEPRECIATION DES AUTRES MATERIELS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "294900",
+    "label": "DEPRECIATIONS DE MATERIELS EN COURS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "295000",
+    "label": "DEPRECIATIONS DES AVACNCES ET ACOMP",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "295100",
+    "label": "DEPRECITAIONS DES AVANCES ET ACOMPT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "295200",
+    "label": "DEPRECIATIONS DES AVANCES ET ACOMPT",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "296000",
+    "label": "DEPRECIATIONS DES TITRES DE PARTICI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "296100",
+    "label": "DEPRECIATIONS DES TITRES DE PARTICI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "296200",
+    "label": "DEPRECIATIONS DES TITRES DE PARTICI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "296300",
+    "label": "DEPRECIATIONS DES TITRES DE PARTICI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "296500",
+    "label": "DEPRECIATION DES PARTICIPATION DANS",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "296600",
+    "label": "DEPRECIATIONS DES PARTS DANS DES GI",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "296800",
+    "label": "DEPRECIATION DES AUTRES TITRES DE P",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "297000",
+    "label": "DEPRECIATIONS DES AUTRES IMMOBILISA",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "297100",
+    "label": "DEPRECIATIONS DES PRETS ET CREANCES",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "297200",
+    "label": "DEPRECIATIONS DES PRETS AU PERSONNE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "297300",
+    "label": "DEPRECIATIONS DES CREANCES SUR L'ET",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "297400",
+    "label": "DEPRECIATIONS DES TITRES IMMOBILISE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "297500",
+    "label": "DEPRECIATIONS DES DEPOTS ET CAUTION",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "297700",
+    "label": "DEPRECIATIONS DES CREANCES RATTACHE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "297800",
+    "label": "DEPRECIATIONS DES CREANCES FINANCIE",
+    "class": "2",
+    "isStandard": true
+  },
+  {
+    "code": "311000",
+    "label": "MARCAHANDISES A",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "311100",
+    "label": "MARCHANDISES A1",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "311200",
+    "label": "MARCHANDISES A2",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "312000",
+    "label": "MARCHANDISES B",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "312100",
+    "label": "MARCHANDISES B1",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "312200",
+    "label": "MARCHANDISES B2",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "313000",
+    "label": "ACTIFS BIOLOGIQUES",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "313100",
+    "label": "ANIMAUX",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "313200",
+    "label": "VEGETAUX",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "318000",
+    "label": "MARCHANDISES HORS ACTIVITES ORDINAI",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "321000",
+    "label": "MATERIERES A",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "322000",
+    "label": "MATIERES B",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "323000",
+    "label": "FOURNITURES(A,B)",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "331000",
+    "label": "MATIERES CONSOMMABLES",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "332000",
+    "label": "FOURNITURES D'ATELIER ET D'USINE",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "333000",
+    "label": "FOURNITURES DE MAGASIN",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "334000",
+    "label": "FOURNITURES DE BUREAU",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "335000",
+    "label": "EMBALLAGES",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "335100",
+    "label": "EMBALLAGES PERDUS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "335200",
+    "label": "EMBALLAGES RECUPERABLES NON IDENTIF",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "335300",
+    "label": "EMBALLAGES A USAGES MIXTES",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "335800",
+    "label": "AUTRES EMBALLAGES",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "338000",
+    "label": "AUTRES MATIERES",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "341000",
+    "label": "PRODUITS EN COURS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "341100",
+    "label": "PRPDUITS EN COURS P1",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "341200",
+    "label": "PRODUITS EN COURS P2",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "342000",
+    "label": "TRAVAUX EN COURS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "342100",
+    "label": "TRAVAUX EN COURS T1",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "342200",
+    "label": "TRAVAUX EN CPOUS T2",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "343000",
+    "label": "PRODUITS INTERMEDIAIRES EN COURS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "343100",
+    "label": "PRODUITS INTERMEDIAIRES A",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "343200",
+    "label": "PRODUITS INTERMEDIAIRES B",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "344000",
+    "label": "PRODUITS RESIDUELS EN COURS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "344100",
+    "label": "PRODUITS RESIDUELS A",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "344200",
+    "label": "PRODUITS RESIDUELS B",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "345000",
+    "label": "ACTIFS BIOLOGIQUES EN COURS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "345100",
+    "label": "ANIMAUX",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "345200",
+    "label": "VEGETAUX",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "351000",
+    "label": "ETUDES EN COURS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "351100",
+    "label": "ETUDES EN COURS E1",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "351200",
+    "label": "ETUDES EN COURS E2",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "352000",
+    "label": "PRESTATIONS DE SERVICES",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "352100",
+    "label": "PRESTATIONS DE SERVICES S1",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "352200",
+    "label": "PRESTATIONS DE SERVICES S2",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "361000",
+    "label": "PRODUITS FINIS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "362000",
+    "label": "PRODUITS FINIS B",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "363000",
+    "label": "ACTIFS BIOLOGIQUES",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "363100",
+    "label": "ANIMAUX",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "363200",
+    "label": "VEGETAUX",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "363800",
+    "label": "AUTRES STOCKS(ACTIVITES ANNEXES)",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "371000",
+    "label": "PRODUITS INTERMEDIAIRES",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "371100",
+    "label": "PRODUITS INTERMEDIAIRES A",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "371200",
+    "label": "PRODUITS INTERMEDIAIRES B",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "372000",
+    "label": "PRODUITS RESIDUELS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "372100",
+    "label": "DECHETS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "372200",
+    "label": "REBUTS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "372300",
+    "label": "MATIERES DE RECUPERATION",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "373000",
+    "label": "ACTIFS BIOLOGIQUES",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "373100",
+    "label": "ANIMAUX",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "373200",
+    "label": "VEGETAUX",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "373800",
+    "label": "AUTRES STOCKS (ACTIVITES ANNEXES)",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "381000",
+    "label": "MARCHANDISES EN COURS DE ROUTE",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "382000",
+    "label": "MATIERES PREMIERES ET FOURNISSEURS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "383000",
+    "label": "AUTRES APPROVISIONNEMENTS EN COURS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "386000",
+    "label": "PRODUITS FINIS EN COURS DE ROUTE",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "387000",
+    "label": "STOCK EN CONSIGNATION OU EN DEPOT",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "387100",
+    "label": "STOCK EN CONSIGNATION",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "387200",
+    "label": "STOCK EN DEPOT",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "388000",
+    "label": "STOCK PROVENANT D'IMMOBILISATION MI",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "391000",
+    "label": "DEPRECIATION DES STOCKS DE MARCHAND",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "392000",
+    "label": "DEPRECIATIONS DES STOCKS DE MATIERE",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "393000",
+    "label": "DEPRECIATIONS DES STOCKS D'AUTRES A",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "394000",
+    "label": "DEPRECIATIONS DES PRODUCTIONS EN CO",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "395000",
+    "label": "DEPRECIATIONS DES SERVICES EN COURS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "396000",
+    "label": "DEPRECIATIONS DES DE PRODUITS FINIS",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "397000",
+    "label": "DEPRECIATIONS DES STOCKS DE PRODUIT",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "398000",
+    "label": "DEPRECIATIONS DES STOCKS EN COURS D",
+    "class": "3",
+    "isStandard": true
+  },
+  {
+    "code": "401000",
+    "label": "FOURNISSEURS DETTES EN COMPTES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "401100",
+    "label": "FOURNISSEURS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "401200",
+    "label": "FOURNISSEURS GROUPE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "401300",
+    "label": "FOURNISSEURS SOUS TRAITANTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "401600",
+    "label": "FOURNISSEURS RESERVES DE PROPRIETE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "401700",
+    "label": "FOURNISSEURS RETENUES DE GARANTIE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "402000",
+    "label": "FOURNISSEURS EFFETS A PAYER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "402100",
+    "label": "FOURNISSEURS EFFETS A PAYER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "402200",
+    "label": "FOURNISSEURS GROUPE EFFETS A PAYER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "402300",
+    "label": "FOURNISSEURS SOUS TRAITANTS EFFETS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "404000",
+    "label": "FOURNISSEURS ACQUISITIONS COURANTES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "404100",
+    "label": "FOURNISSEURS DETTES EN COMPTE IMMOB",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "404200",
+    "label": "FOURNISSEURS DETTES EN COMPTES IMMO",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "404600",
+    "label": "FOURNISSEURS EFFETS A PAYER IMMOBIL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "404700",
+    "label": "FOURNISSEURS EFFETS A PAYER IMMOBIL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "408000",
+    "label": "FOURNISSEURS FACTURES NON PARVENUES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "408100",
+    "label": "FOURNISSEURS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "408200",
+    "label": "FOUNISSEURS -GROUPE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "408300",
+    "label": "FOURNISSEURS SOUS TRAITANTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "408600",
+    "label": "FOURNISSEURS INTERETS COURUS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "409000",
+    "label": "FOURNISSEURS DEBITEURS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "409100",
+    "label": "FOURNISSEURS AVANCES ET ACOMPTES V",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "409200",
+    "label": "FOURNISSEURS GROUPE AVANCES ET ACCO",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "409300",
+    "label": "FOURNISSEURS SOUS TRAITANTS AVANCES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "409400",
+    "label": "FOURNISSEURS CREANCES POUR EMBALLAG",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "409800",
+    "label": "FOURNISSEURS RABAIS REMISES RISTOUR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "411000",
+    "label": "CLIENTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "411100",
+    "label": "CLIENTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "411200",
+    "label": "CLIENTS GROUPE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "411400",
+    "label": "CLIENTS ETAT ET COLLECTIVITES PUBLI",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "411500",
+    "label": "CLIENTS ORGANISMES INTERNATIONAUX",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "411600",
+    "label": "CLIENTS RESERVE DE PROPRIETE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "411700",
+    "label": "CLIENTS RETENUS DE GARANTIS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "411800",
+    "label": "CLIENTS DEGREVEMENTS DE TAXES SUR L",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "412000",
+    "label": "CLIENTS EFFETS A RECEVOIR EN PORTEF",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "412100",
+    "label": "CLIENTS EFFETS A RECEVOIR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "412200",
+    "label": "CLIENTS GROUPE EFFETS A RECEVOIR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "412400",
+    "label": "ETATS ET COLLECTIVES PUBLIQUES EFFE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "412500",
+    "label": "ORGANISMES CHEQUES EFFETS ET AUTRES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "413000",
+    "label": "CLIENTS CHEQUES EFFETS ET AUTRES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "413100",
+    "label": "CLIENTS CHEQUES IMPAYES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "413200",
+    "label": "CLIENTS EFFETS IMPAYES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "413300",
+    "label": "CLIENTS CARTE DE CREDTS IMPAYES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "413800",
+    "label": "CLIENTS AUTRES VALEURS IMPAYES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "414000",
+    "label": "CREANCES SUR CESSION COURANTES D'I",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "414100",
+    "label": "CREANCES AU COMPTES IMMOBILISATIONS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "414200",
+    "label": "CREANCES EN COMPTES IMMOBILISATIONS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "414600",
+    "label": "EFFETS A RECEVOIR IMMOBILISATION I",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "414700",
+    "label": "EFFETS A RECEVOIR IMMOBILISATIONS C",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "415000",
+    "label": "CLIENTS EFFETS ESCOMPTES NON ECHUS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "416000",
+    "label": "CREANCES CLIENTS LITIGIEUSES OU DOU",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "416100",
+    "label": "CREANCES LITIGIEUSES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "416200",
+    "label": "CREANCES DOUTEUSES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "418000",
+    "label": "CLIENTS PRODUITS A RECEVOIR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "418100",
+    "label": "CLIENTS FACTURES A ETABLIR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "418600",
+    "label": "CLIENTS INTERETS COURUS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "419000",
+    "label": "CLIENTS CREDITEURS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "419100",
+    "label": "CLIENTS AVANCES ET ACOMPTES RECUS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "419200",
+    "label": "CLIENTS GROUPE AVANCES ET ACOMPTES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "419400",
+    "label": "CLIENTS DETTES POUR EMBALLAGES ET M",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "419800",
+    "label": "CLIENTS RABAIS REMISES RISTOURNES E",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "421000",
+    "label": "PERSONNEL AVANCESET ACOMPTES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "421100",
+    "label": "PERSONNEL AVANCES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "421200",
+    "label": "PERSONNEL ACOMPTES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "421300",
+    "label": "FRAIS AVANCES ET FOURNITURES AU PER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "422000",
+    "label": "PERSONNEL REMUNERATIONS DUES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "422100",
+    "label": "REMUNERATION DUE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "423000",
+    "label": "PERSONNEL OPPOSITIONS SAISIES ARRET",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "423100",
+    "label": "PERSONNEL OPPOSITIONS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "423200",
+    "label": "PERSONNEL SAISIES ARRETS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "423300",
+    "label": "PERSONNEL AVIS A TIERS DETENTEURS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "424000",
+    "label": "PERSONNEL OUEUVRES SOCIALES INTERNE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "424100",
+    "label": "ASSISTANCE MEDICALE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "424200",
+    "label": "ALLOCATIONS FAMILLIALES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "424500",
+    "label": "ORGANISME SOCIAUX RATTACHES A L'ENT",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "424800",
+    "label": "AUTRES OEUVRE SOCIALES INTERNES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "425000",
+    "label": "REPRESENTANTS DU PERSONNEL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "425100",
+    "label": "DELEGUE DU PERSONNEL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "425200",
+    "label": "SYNDICAT ET COMITES D'ENTREPRISE D'",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "425800",
+    "label": "AUTRES REPRESENTANTS DU PERSONNEL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "426000",
+    "label": "PERSONNEL PARTICPATION AUX BENEFICE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "426100",
+    "label": "PARTICIPATIONS AUX BENEFICES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "426400",
+    "label": "PARTICIPATION AU CAPITAL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "426600",
+    "label": "AUTRES CHARGES A PAYER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "427000",
+    "label": "PERSONNEL DEPOTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "428000",
+    "label": "PERSONNEL CHARGES A PAYER PRODUITS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "428100",
+    "label": "DETTES PROVISINNEES POUR CORRIGES A",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "428700",
+    "label": "PRODUITS A RECEVOIR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "431000",
+    "label": "SECURITE SOCIALES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "431100",
+    "label": "PRESTATION FAMILIALES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "431200",
+    "label": "ACCIDENTS DE TRAVAIL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "431300",
+    "label": "CNPS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "431400",
+    "label": "CAISSE DE RETRAITE FACULTATVE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "431800",
+    "label": "AUTRES COTISATIONS SOCIALES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "432000",
+    "label": "CAISSES DE RETRAITES COMPLEMENTAIRE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "433000",
+    "label": "AUTRES ORGANISMES SOCIAUX",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "433100",
+    "label": "MUTUELLE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "433200",
+    "label": "ASSURANCE RETRAITE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "433300",
+    "label": "ASSURANCES ET ORGANISMES DE SANTE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "438000",
+    "label": "ORGANISMES SOCIAUX CHARGES A PAYER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "438100",
+    "label": "CHARGES SOCIALS SUR GRATIFIATIONS A",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "438200",
+    "label": "CHARGES SOCIALES SUR CONGES A PAYER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "438600",
+    "label": "AUTRES CHARGES A PAYER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "438700",
+    "label": "PRODUITS A RECEVOIR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "441000",
+    "label": "ETATS IMPOTS SUR LES BENEFICES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "442000",
+    "label": "ETATS AUTRES IMPOTS ET TAXES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "442100",
+    "label": "IMPOTS ET TAXES D'ETATS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "442200",
+    "label": "IMPOTS ET TAXES POUR LES COLLECTIVI",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "442300",
+    "label": "IMPOTS ET TAXES RECOUVRABLES SUR DE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "442400",
+    "label": "IMPOTS ET TAXES RECOUVRABLES SUR DE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "442600",
+    "label": "DROITS DE DOUANES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "442800",
+    "label": "AUTRES IMPOTS ET TAXES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "443000",
+    "label": "ETAT TVA FACTUREE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "443100",
+    "label": "TVA FACTUREE SUR VENTES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "443200",
+    "label": "TVA FACTUREE SUR PRESTATIONS DE SEV",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "443300",
+    "label": "TVA FACTUREE SUR TRAVAUX",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "443400",
+    "label": "TVA FACTUREE SUR PRODUCTION LIVREE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "443500",
+    "label": "TVA SUR FACTURE A ETABLIIR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "444000",
+    "label": "ETAT TVA DUE OU CREDIT DE TVA",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "444100",
+    "label": "ETATS TVA DUE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "444500",
+    "label": "ETAT DEGREVEMENT TVA",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "444900",
+    "label": "ETATS CREDITS DE TVA A REPORTER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "445000",
+    "label": "ETATS TVA RECUPERABLE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "445100",
+    "label": "TVA RECUPERABLE SUR IMMOBILISATIONS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "445200",
+    "label": "TVA RECUPERABLES SUR ACHATS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "445300",
+    "label": "TVA RECUPERABLE SUR TRANSPORT",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "445400",
+    "label": "TVA RECUPERABLE SUR SERVICES EXTERI",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "445500",
+    "label": "TVA RECUPERABLE SUR FACTURES NON PA",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "445600",
+    "label": "TVA TRANSFEREE PAR D'AUTRES ENTITE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "446000",
+    "label": "ETATS AUTRES TAXES SUR LE CHIFFRE D",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "447000",
+    "label": "ETATS IMPOTS RETENUS A LA SOURCE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "447100",
+    "label": "IMPOT GENERAL SUR LE REVENU",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "447200",
+    "label": "IMPOTS SUR SALAIRES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "447300",
+    "label": "CONTRIBUTIONS NATIONALE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "447400",
+    "label": "CONTRIBUTIONS NATIONALES DE SOLIDAR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "447800",
+    "label": "AUTRES IMPOTS ET CONTRIBUTIONS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "447810",
+    "label": "FDFP",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "448000",
+    "label": "ETATS CHARGES A PAYER ET PRODUITS A",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "448600",
+    "label": "CHARGES A PAYER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "448700",
+    "label": "PRODUITS A RECEVOIR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "449000",
+    "label": "ETATS CREANCES ET DETTES DIVERSES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "449100",
+    "label": "ETAT OBLIGATIONS CAUTIONNEES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "449200",
+    "label": "ETATS AVANCES ET ACOMPTES VERSES SU",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "449300",
+    "label": "ETATS FONDS DE DOTATIONS A RECEVOIR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "449400",
+    "label": "ETAT SUBVENTIONS D'INVESTISSEMENTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "449500",
+    "label": "ETATS SUBVENTION D'EXPLOITATION A R",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "449600",
+    "label": "ETATS SUBVENTION D'EQUILIBRE A RECE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "449700",
+    "label": "ETATS AVANCES SUR SUBVENTIONS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "449900",
+    "label": "ETATS FONDS REGLEMENTS PROVISIONNEE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "451000",
+    "label": "OPERATIONS AVEC LES ORGANISMES AFR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "452000",
+    "label": "OPERATIONS AVEC LES AUTRES ORGANISM",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "458000",
+    "label": "ORGANISMES INTERNATIONAUX FONDS DE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "458100",
+    "label": "ORGANISMES INTERNATIONAUX FONDS DE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "458200",
+    "label": "ORGANISMES INTERNATIONAUX SUBVENTIO",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "461000",
+    "label": "APPORTEURS OPERATIONS SUR LE CAPITA",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "461100",
+    "label": "APPORTEURS APPORTS EN NATURES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "461200",
+    "label": "APPORTEURS APPORTS EN NUMERAIRES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "461300",
+    "label": "APPORTEURS CAPITAL APPELE NON VERS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "461400",
+    "label": "APPORTEURS COMPTES D'APPORT OPERATI",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "461500",
+    "label": "APPORTEURS VERSEMENTS RECUS SUR AUG",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "461600",
+    "label": "APPORTEURS VERSEMENTS ANTICIPES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "461700",
+    "label": "APPORTEURS DEFAILLANTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "461800",
+    "label": "APPORTEURS TITRES A ECHANGER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "461900",
+    "label": "APPORTEURS CAPITAL A REMBOURSER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "462000",
+    "label": "ASSOCIES COMPTES COURANTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "462100",
+    "label": "PRINCIPAL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "462600",
+    "label": "INTERETS COURUS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "463000",
+    "label": "ASSOCIES OPERATIONS FAITES EN COMMU",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "463100",
+    "label": "OPERATIONS COURANTES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "463600",
+    "label": "INTERETS COURUS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "465000",
+    "label": "ASSOCIES DIVIDENDES A PAYER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "466000",
+    "label": "GROUPE COMPTES COURANTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "467000",
+    "label": "APPORTEURS RESTANTS DU SUR CAPITAL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "469000",
+    "label": "ENTITES A RECEVOIR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "471000",
+    "label": "DEBITEURS ET CREDITEURS DIVERS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "471100",
+    "label": "DEBITEUR DIVERS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "471200",
+    "label": "CREDITEURS DIVERS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "471300",
+    "label": "OBLIGATAIRES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "471500",
+    "label": "REMUNERATIONS D'ADMINISTRATEURS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "471600",
+    "label": "COMPTE D'AFFACTURAGE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "471800",
+    "label": "APPORT COMPTES DE FUSION ET OPERATI",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "471900",
+    "label": "BONS DE SOUSCRIPTIONS D'ACTIONS ET",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "472000",
+    "label": "CREANCES ET DETTES SUR TITRES DE PL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "472100",
+    "label": "CREANCES SUR CESSIONS DE TITRE DE P",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "472600",
+    "label": "VERSEMENTS RESTANTS A EFFECTUER SUR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "473000",
+    "label": "INTERMEDIAIRES OPERATIONS FAITES PO",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "473100",
+    "label": "MANDANTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "473200",
+    "label": "MANDATAIRES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "473300",
+    "label": "COMMETTANTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "473400",
+    "label": "COMMISSIONNAIRES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "473900",
+    "label": "ETATS COLLECTIVES PUBLIQUES FONDS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "474000",
+    "label": "COMPTES DE REPARTITIONS PERIODIQUE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "474600",
+    "label": "COMPTE DE REPARTISION PERIODIQUE DE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "474700",
+    "label": "COMPTE DE REPARTIONS PERIODIQUE DE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "475000",
+    "label": "COMPTE TRANSITOIRE AJUSTEMENTS SPEC",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "475100",
+    "label": "COMPTE ACTIF",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "475200",
+    "label": "COMPTE PASSIF",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "476000",
+    "label": "CHARGES CONSTATEES D'AVANCE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "477000",
+    "label": "PRODUITS CONSTATEES D'AVANCE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "478000",
+    "label": "ECARTS DE CONVERSION ACTIF",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "478100",
+    "label": "DIMINUTION DES CREANCES D'EXOLITATI",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "478200",
+    "label": "DIMUNITION DES CREANCES FINANCIERES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "478300",
+    "label": "AUGMENTATIONS DES DETTES D'EXPLOITA",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "478400",
+    "label": "AUGMENTATION DES DETTES FINANCIERES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "478600",
+    "label": "DIFFERENCES D'EVALUATION SUR INSTRU",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "478800",
+    "label": "DIFFERENCES COMPENSEES PAR COUVERT",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "479000",
+    "label": "ECART DE CONVERSION PASSIF",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "479100",
+    "label": "AUGMENTATION DES CREANCES D'EXPLOIT",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "479200",
+    "label": "AUGMENTATIONS DES CREANCES FINANCIE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "479300",
+    "label": "DIMINUTION DES DETTES D'EXPLOITATIO",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "479400",
+    "label": "DIMINUTION DES DETTES FINANACIERES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "479700",
+    "label": "DIFFERENCES D'EXPLOITATIONS SUR INT",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "479800",
+    "label": "DIFFERENCES COMPENSEES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "481000",
+    "label": "FOURNISSEURS D'INVESTISSEMENTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "481100",
+    "label": "IMMOBIISATIONS INCORPORELLES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "481200",
+    "label": "IMMOBILISATIONS CORPORELLES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "481300",
+    "label": "VERSEMENTS RESTANTS A EFFECTUER SU",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "481600",
+    "label": "RESERVES DE PROPRIETE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "481700",
+    "label": "RETENUES DE GARANTIE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "481800",
+    "label": "NON PARVENUES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "482000",
+    "label": "FOURNISSEURS D'INVESTISSEMENTS EFFE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "482100",
+    "label": "IMMOBILISATION INCORPORELLES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "482200",
+    "label": "IMMOBILISATION CORPORELLES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "484000",
+    "label": "AUTRES DETTES HORS ACTIVITES ORDINA",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "485000",
+    "label": "CREANCES SUR CESSION D'IMMOBILISATI",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "485100",
+    "label": "EN COMPTE IMMOBILISATION INCORPOREL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "485200",
+    "label": "EN COMPTE IMMOBILISATION CORPORELLE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "485300",
+    "label": "EFFETS A RECEVOIR IMMOBILISATION IN",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "485400",
+    "label": "EFFETS A RECEVOIR IMMOBILISATION CO",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "485500",
+    "label": "EFFETS ESCOMPTES NON ECHUS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "485600",
+    "label": "IMMOBILISATION FINANCIERES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "485700",
+    "label": "RETENUES DE GARANTIE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "485800",
+    "label": "FACTURES A ETABLIR",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "488000",
+    "label": "AUTRES CREANCES HORS ACTIVITES ORDI",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "490000",
+    "label": "DEPRECIATIONS DES COMPTES FOURNISSE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "491000",
+    "label": "DEPRECIATION DES COMPTES CLIENTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "491100",
+    "label": "CREANCES LITIGIEUSES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "491200",
+    "label": "CREANCES DOUTEUSES",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "492000",
+    "label": "DEPRECIATIONS DES COMPTES PERSONNEL",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "493000",
+    "label": "DEPRECIATIONS DES COMPTES ORGANISME",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "494000",
+    "label": "DEPRECIATIONS DES COMPTES ETATS ET",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "495000",
+    "label": "DEPRECIATIONS DES COMPTES ORGANISME",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "496000",
+    "label": "DEPRECIATION DES COMPTES APPORTEURS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "496200",
+    "label": "ASSOCIES COMPTES COURANTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "496300",
+    "label": "ASSOCIES OPERATIONS FAITES EN COMMU",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "496600",
+    "label": "GROUPE COMPTES COURANTS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "497000",
+    "label": "DEPRECIATIONS DES COMPTES DEBITEURS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "498000",
+    "label": "DEPRECIATIONS DES COMPTES DE CREANC",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "498500",
+    "label": "CREANCES SUR CESSIONS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "498600",
+    "label": "CREANCES SUR CESSIONS DE TITRES DE",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "498800",
+    "label": "AUTRES CREANCES HAO",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "499000",
+    "label": "PROVISIONS POUR RISQUES A COURT TER",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "499100",
+    "label": "SUR OPERATIONS D'EXPLOITATIONS",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "499800",
+    "label": "SUR OPERATIONS HAO",
+    "class": "4",
+    "isStandard": true
+  },
+  {
+    "code": "501000",
+    "label": "TITRE DU TRESOR ET BONS DE CAISSE A",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "501100",
+    "label": "TITRE DU TRESOR A COURT TERME",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "501200",
+    "label": "TITRES D'ORGANISMES FINANCIERS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "501300",
+    "label": "BONS DE CAISSE A COURT TERME",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "501600",
+    "label": "FRAIS D'AQUISITION DES TITRES DE TR",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "502000",
+    "label": "ACTIONS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "502100",
+    "label": "ACTION OU PARTS PROPRES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "502200",
+    "label": "ACTIONS COTEES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "502300",
+    "label": "ACTIONS NON COTEES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "502400",
+    "label": "ACTIONS DEMEMBREES(CERTIFICATS D'IN",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "502500",
+    "label": "AUTRES ACTIONS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "502600",
+    "label": "FRAIS D'ACQUISITION DES PROBLEMES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "503000",
+    "label": "OBLIGATIONS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "503100",
+    "label": "OBLIGATIONS EMISES PAR LA SOCIETE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "503200",
+    "label": "OBLIGATIONS COTEES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "503300",
+    "label": "OBLIGATIONS NON COTEES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "503500",
+    "label": "AUTRES OBLIGATIONS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "503600",
+    "label": "FRAIS D'ACQUISITION DES OBLIGATIONS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "504000",
+    "label": "BONS DE SOUSCRIPTION",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "504200",
+    "label": "BON DE SOUSCRIPTION D'ACTIONS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "504300",
+    "label": "BONS DE SOUSCRIPTION D'OBLIGATIONS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "505000",
+    "label": "TITRES NEGOCIALES HORS REGION",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "506000",
+    "label": "INTERETS COURUS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "506100",
+    "label": "TITRES DU TRESOR ET BONS DE CAISSE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "506200",
+    "label": "ACTIONS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "506300",
+    "label": "OBLIGATIONS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "508000",
+    "label": "AUTRES TITRES DE PLACEMENTS ET CREA",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "511000",
+    "label": "EFFETS A ENCAISSER",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "512000",
+    "label": "EFFETS A L'ENCAISSEMENT",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "513000",
+    "label": "CHEQUES A ENCAISSER",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "514000",
+    "label": "CHEQUES A L'ENCAISSEMENT",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "515000",
+    "label": "CARTES DE CREDIT A ENCAISSER",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "518000",
+    "label": "AUTRES VALEURS A L'ENCAISSEMENT",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "518100",
+    "label": "WARRANTS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "518200",
+    "label": "BILLETS DE FONDS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "518500",
+    "label": "CHEQUES DE VOYAGE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "518600",
+    "label": "COUPONS ECHUS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "518700",
+    "label": "INTERETS ECHUS DES OBLIGATIONS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "521000",
+    "label": "BANQUES LOCALES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "521100",
+    "label": "BNI",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "521500",
+    "label": "BANQUES EN DEVISES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "522000",
+    "label": "BANQUES AUTRES ETATS REGIONS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "523000",
+    "label": "BANQUES AUTRES ZONE MONETAIRE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "524000",
+    "label": "BANQUES HORS ZONE MONETAIRE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "525000",
+    "label": "BANQUES DEPOT A TERME",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "526000",
+    "label": "BANQUES INTERETS COURUS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "526200",
+    "label": "BANQUES INTERETS COURUS CHARGES A P",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "526500",
+    "label": "BANQUE INTERETS COURUS PRODUITS A R",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "531000",
+    "label": "CHEQUES POSTAUX",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "532000",
+    "label": "TRESOR",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "533000",
+    "label": "SOCIETE DE GESTION ET D'INTERMEDIAI",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "536000",
+    "label": "ETABLISSEMENTS FINANCIERS INTERNES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "538000",
+    "label": "AUTRES ORGANISMES FINANCIERS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "541000",
+    "label": "OPTIONS DE TAUX D'INTERETS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "542000",
+    "label": "OPTIONS DE TAUX DE CHANGES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "543000",
+    "label": "OPTIONS DE TAUX BOURSIERS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "544000",
+    "label": "INSTRUMENTS DE MARCHES A TERRE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "545000",
+    "label": "AVOIRS D'OR ET AUTRES METAUX PRECIE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "551000",
+    "label": "MONNAIE ELECTRONIQUE CARTE CARBURAN",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "552000",
+    "label": "MONNAIE ELECTRONIQUE TELEPHONE PORT",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "553000",
+    "label": "MONNAIE ELECTRONIQUE CARTE PEACE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "554000",
+    "label": "PORTE MONNAIE ELECTRONIQUE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "558000",
+    "label": "AUTRES INSTRUMENTS MONNAIES ELECTR",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "561000",
+    "label": "CREDITS DE TRESORERIE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "564000",
+    "label": "ESCOMPTE DE CREDITS DE CAMPAGNE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "565000",
+    "label": "ESCOMPTE DE CREDITS ORDINAIRES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "566000",
+    "label": "BANQUES CREDITS DE TRESORERIE INTER",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "571000",
+    "label": "CAISSE SIEGE SOCIAL",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "571100",
+    "label": "CAISSE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "571200",
+    "label": "CAISSE EN DEVISES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "572000",
+    "label": "CAISSE SUCCURSALE A",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "572100",
+    "label": "EN MONNAIE NATIONALE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "572200",
+    "label": "EN DEVISES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "573000",
+    "label": "CAISSE SUCCURSALE B",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "573100",
+    "label": "EN MONNAIE NATIONALE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "573200",
+    "label": "EN DEVISE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "581000",
+    "label": "REGIES D'AVANCES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "582000",
+    "label": "ACCREDITIFS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "585000",
+    "label": "VIREMENTS DE FONDS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "588000",
+    "label": "AUTRES VIREMENTS INTERNES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "590000",
+    "label": "DEPRECIATIONS DES TITRES DE PLACEME",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "591000",
+    "label": "DEPRECIATIONS DES TITRES ET VALEURS",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "592000",
+    "label": "DEPRECIATION DES COMPTES BANQUES",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "593000",
+    "label": "DEPRECIATIONS DES COMPTES ETABLISSE",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "594000",
+    "label": "DEPRECIATIONS DES COMPTES D'INVESTI",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "599000",
+    "label": "PROVISIONS POUR RISQUES A COURT TER",
+    "class": "5",
+    "isStandard": true
+  },
+  {
+    "code": "601000",
+    "label": "ACHATS DE MARCHANDISES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "601100",
+    "label": "ACHATS DE MARCHANDISES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "601200",
+    "label": "HORS REGION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "601300",
+    "label": "AUX ENTITES DU GROUPE DANS LA REGIO",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "601400",
+    "label": "AUX ENTITES DU GROUPE HORS REGION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "601500",
+    "label": "FRAIS SUR ACHATS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "601900",
+    "label": "RABAIS,REMISES,RISTOURNES OBTENUS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "602000",
+    "label": "ACHAT DE MATIERES PREMIERES ET FOUR",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "602100",
+    "label": "DANS LA REGION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "602200",
+    "label": "HORS REGION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "602300",
+    "label": "AUX ENTITES DU GROUPE DANS LA REGIO",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "602400",
+    "label": "AUX ENTITES DU GROUPE HORS REGION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "602500",
+    "label": "FRAIS SUR ACHATS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "602900",
+    "label": "RABAIS,REMISES,RISTOURNES OBTENUS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "603000",
+    "label": "VARIATION DE STOCKS DE BIEN ACHETES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "603100",
+    "label": "VARIATION DE STOCK DE MARCHANDISES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "603200",
+    "label": "VARIATION DE STOCKS DE MATIERE PREM",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "603300",
+    "label": "VARIATIONS DE STOCKS AUTRES APPROVI",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "604000",
+    "label": "ACHAT STOCKES DE MATIERES ET FOURNI",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "604100",
+    "label": "MATIRES CONSOMABLES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "604200",
+    "label": "MATIRES COMBUSTIBLES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "604300",
+    "label": "PRODUITS D'ENTRETIEN",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "604400",
+    "label": "FOURNITURS D'ATELIER ET D'USINE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "604500",
+    "label": "FRAIS SUR ACHATS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "604600",
+    "label": "FOURNITURES DE MAGASIN",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "604700",
+    "label": "FOURNITURES DE BUREAU",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "604900",
+    "label": "RABAIS,REMISES,RISTOURNES OBTENUS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "605000",
+    "label": "AUTRES ACHATS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "605100",
+    "label": "FOURNITURS NON STOCKABLES-EAU",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "605200",
+    "label": "FOURNITURES NON STOCKABLES-ELECTRIC",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "605300",
+    "label": "FOURNITURES NON STOCKABLES-AUTRE EN",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "605400",
+    "label": "FOURNITURES D'ENTRETIEN NON STOCKAB",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "605500",
+    "label": "FOURNITURES BUREAU NON STOCKABLE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "605600",
+    "label": "ACHAT PETIT MATERIEL ET OUTILLAGE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "605700",
+    "label": "ACHAT D'ETUDE ET PRESTA SERVICES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "605800",
+    "label": "ACHATS TRAVAUX,MATERIELS EQUIPEMENT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "605900",
+    "label": "RABAIS,REMISES,RISTOURNES OBTENUS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "608000",
+    "label": "ACHATS D'EMBALLAGES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "608100",
+    "label": "EMBALLAGES PERDUS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "608200",
+    "label": "EMBALLAGE RECUPERABLES NON IDENTIFI",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "608300",
+    "label": "EMBALLAGES A USAGE MIXTE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "608500",
+    "label": "FRAIS SUR ACHATS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "608900",
+    "label": "RABAIS,REMISES,RISTOURNES OBTENUS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "612000",
+    "label": "TRANSPORTS SUR VENTES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "613000",
+    "label": "TRANSPORT POUR LE COMPTE DE TIERS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "614000",
+    "label": "TRANSPORTS DU PERSONNEL",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "616000",
+    "label": "TRANSPORT DE PLIS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "618000",
+    "label": "AUTRES FRAIS DE TRANSPORT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "618100",
+    "label": "VOYAGES ET DEPLACEMENTS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "618200",
+    "label": "TRANSPORT ENTRE ETABLISSEMENT/CHANT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "618300",
+    "label": "TRANSPORT ADMINISTRATIFS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "621000",
+    "label": "SOUS-TRAITANCECE GENERALE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "622000",
+    "label": "LOCATIONS ET CHARGES LOCATIVES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "622100",
+    "label": "LOCATIONS DE TERRAINS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "622200",
+    "label": "LOCATION DE BATIMENTS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "622300",
+    "label": "LOCATION DE MATERIELS ET OUTILLAGES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "622400",
+    "label": "MALIS SUR EMBALLAGES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "622500",
+    "label": "LOCATIONS D'EMBALLAGES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "622600",
+    "label": "FERMAGES ET LOYERS DU FONCIER",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "622800",
+    "label": "LOCATIONS ET CHARGES LOCATIVES DIVE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "623000",
+    "label": "REDEVANCES DE LOCATION-ACQUISITION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "623200",
+    "label": "CREDIT-BAIL IMMOBILIER",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "623300",
+    "label": "CREDIT-BAIL MOBILIER",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "623400",
+    "label": "LOCATION-VENTE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "623800",
+    "label": "AUTRES CONTRATS DE LOCATION-ACQUISI",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "624000",
+    "label": "ENTRETIEN,REPARATION,REMISE EN ETAT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "624100",
+    "label": "ENTRETIEN ET REPARATION BIENS IMMOB",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "624200",
+    "label": "ENTRETIEN ET REPARATION BIENS MOBIL",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "624300",
+    "label": "MAINTENANCE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "624400",
+    "label": "CHARGES DE DEMENTELEMENT ET REMISE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "624800",
+    "label": "AUTRES ENTRETIEN ET REPARATIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "625000",
+    "label": "PRIEMES D'ASSURANCE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "625100",
+    "label": "ASSURANCES MULTIRISQUES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "625200",
+    "label": "ASSURANCES MATERIELS DE TRANSPORT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "625300",
+    "label": "ASSURANCES RISQUES D'EXPLOITATION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "625400",
+    "label": "ASSURANCES RESPONSABILITE DU PRIDUC",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "625500",
+    "label": "ASSURANCES INSOLVABILITE CLIENTS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "625700",
+    "label": "ASSURANCES TRANSPORT SUR VENTES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "625800",
+    "label": "AUTRES PRIMES D'ASSURANCES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "626000",
+    "label": "ETUDES,RECHERCHES ET DOCUMENTATION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "626100",
+    "label": "ETUDES ET RECHERCHES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "626500",
+    "label": "DOCUMENTATION GENERALE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "626600",
+    "label": "DOCUMENTATION TECHNIQUE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "627000",
+    "label": "PUBLICITE,RELATIONS PUBLIQUES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "627100",
+    "label": "ANNONCES,INSERTIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "627200",
+    "label": "CATALOGUES,IMPRIMES PUBLICITAIRES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "627300",
+    "label": "ECHANTILLONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "627400",
+    "label": "FOIRES ET EXPLOITATIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "627500",
+    "label": "PUBLICATIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "627600",
+    "label": "CADEAUX A LA CLIENTELE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "627700",
+    "label": "FRAIS DE COLLOQUES,SEMINAIRES,CONFE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "627800",
+    "label": "AUTRES CHARGES DE PUBLICITE ET RELA",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "628000",
+    "label": "FRAIS DE TELECOMMUICATIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "628100",
+    "label": "FRAIS DE TELEPHONE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "628200",
+    "label": "FRAIS DE TELEX",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "628300",
+    "label": "FRAIS DE TELECOPIE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "628800",
+    "label": "AUTRES FRAIS DE TELECOMMUNICATION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "631000",
+    "label": "FRAIS BANCAIRES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "631100",
+    "label": "FRAIS SUR TITRES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "631200",
+    "label": "FRAIS SUR EFFETS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "631300",
+    "label": "LOCATION DE COFFRES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "631400",
+    "label": "COMMISSIONS D'AFFACTURAGE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "631500",
+    "label": "COMMISSIONS SUR CARTES DE CREDIT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "631600",
+    "label": "FRAIS D'EMISSION D'EMPRUNTS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "631700",
+    "label": "FRAIS SUR INSTRUMENTS MONNAIE ELECT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "631800",
+    "label": "AUTRES FRAIS BANCAIRES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "632000",
+    "label": "REMUNERATIONS D'INTERMEDIAIRES ET C",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "632200",
+    "label": "COMMISSIONS ET COURTAGES SUR VENTES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "632400",
+    "label": "HONORAIRES DES PROFESSIONS REGLEMEN",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "632500",
+    "label": "FRAIS D'ACTES ET CONTENTIEUX",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "632600",
+    "label": "REMUNERATIONS D'AFFACTURAGE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "632700",
+    "label": "REMUNERATIONS DES AUTRES PRESTATAIR",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "632800",
+    "label": "DIVERS FRAIS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "633000",
+    "label": "FRAIS DE FORMATION DU PERSONNEL",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "634000",
+    "label": "REDEVANCES POUR BREVETS,LICENCES,LO",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "634200",
+    "label": "REDEVANCES POUR BREVETS,LICENCES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "634300",
+    "label": "REDEVANCES POUR LOGICIELS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "634400",
+    "label": "REDEVANCES POUR MARQUES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "634500",
+    "label": "REDEVANCES POUR SITES INTERNET",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "634600",
+    "label": "REDEVANCES POUR CONCESSIONS, DROIT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "635000",
+    "label": "COTISATIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "635100",
+    "label": "COTISATIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "635800",
+    "label": "CONCOURS DIVERS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "637000",
+    "label": "REMUNERATIONS PERSONNEL EXTERIEUR",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "637100",
+    "label": "PERSONNEL INTERIMAIRE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "637200",
+    "label": "PERSONNEL DETACHE OU PRETE A L'ENTI",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "638000",
+    "label": "AUTRES CHARGES EXTERNES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "638100",
+    "label": "FRAIS DE RECRUTEMENT DU PERSONNEL",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "638200",
+    "label": "FRAIS DE DEMENAGEMENT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "638300",
+    "label": "RECEPTIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "638400",
+    "label": "MISSIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "638500",
+    "label": "CHARGES DE COPROPRIETE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "638800",
+    "label": "CHARGES EXTERNES DIVERSES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "641000",
+    "label": "IMPOTS ET TAXES DIRECTS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "641100",
+    "label": "IMPOTS FONCIERS ET TAXES ANNEXES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "641200",
+    "label": "PATENTE,LICENCES ET TAXES ANNEXES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "641300",
+    "label": "TAXE SUR APPOINTEMENTS ET SALAIRES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "641400",
+    "label": "TAXES D'APPRENTISSAGE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "641500",
+    "label": "FORMATION PROFESSIONNELLE ET CONTIN",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "641800",
+    "label": "AUTRES IMPOTS ET TAXES DIRECTES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "645000",
+    "label": "IMPOTS ET TAXES INDIRECTS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "646000",
+    "label": "DROIT D'ENREIGISTREMENT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "646100",
+    "label": "DROIT DE MUTATION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "646200",
+    "label": "DROIT DE TIMBRE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "646300",
+    "label": "TAXES SUR VEHICULES DE SOCIETE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "646400",
+    "label": "VIGNETTES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "646800",
+    "label": "AUTRES DROITS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "647000",
+    "label": "PENALITES ET AMENDES FISCALES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "647100",
+    "label": "PENALITES D'ASSIETTE,IMPOTS DIRECTS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "647200",
+    "label": "PENALITES D'ASSIETTE,IMPOT INDIRECT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "647300",
+    "label": "PENALITES DE RECOUVRE,IMPOT DIRECTS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "647400",
+    "label": "PENALITE DE RECOUVRE,IMPOT INDIRECT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "647800",
+    "label": "AUTRES PENALITES ET AMANDES FISCALE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "648000",
+    "label": "AUTRES IMPOTS ET TAXES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "651000",
+    "label": "PERTE SUR CREANCES ET AUTRES DEBITE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "651100",
+    "label": "CLIENTS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "651500",
+    "label": "AUTRES DEBITEURS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "652000",
+    "label": "QUOTE-PART DE RESULTAT SUR OPERATIO",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "652100",
+    "label": "QUOTE-PART TRANSFEREE DE BENEFICES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "652500",
+    "label": "PERTES IMPUTEES PAR TRANSFERT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "654000",
+    "label": "VALEURS COMPTABLES DES CESSIONS COU",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "654100",
+    "label": "IMMOBILISATIONS INCORPORELLES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "654200",
+    "label": "IMMOBILISATIONS CORPORELLES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "656000",
+    "label": "PERTE DE CHANGE SUR CREANCES ET DET",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "657000",
+    "label": "PENALITES ET AMENDES PENALES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "658000",
+    "label": "CHARGES DIVERSES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "658100",
+    "label": "INDEMNITES DE FOCTION ET AUTRE REMU",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "658200",
+    "label": "DONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "658300",
+    "label": "MECENAT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "658800",
+    "label": "AUTRES CHARGES DIVERSES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "658810",
+    "label": "ARRONDIS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "659000",
+    "label": "CHARGES POUR DEPRECIATION ET PROVIS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "659100",
+    "label": "SUR RISQUE A COURT TERME",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "659300",
+    "label": "SUR STOCKS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "659400",
+    "label": "SUR CREANCES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "659800",
+    "label": "AUTRES CHARGES POUR DEPRECIAT ET PR",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "661000",
+    "label": "REMUNERATION DIRECTES VERSEES PERSN",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "661100",
+    "label": "APPOINTEMENT SALAIRES ET COMMISSION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "661200",
+    "label": "PRIMES ET GRATIFICATIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "661300",
+    "label": "CONGES PAYES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "661400",
+    "label": "INDEMNITES DE PREAVIS,LICENCIEMENT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "661500",
+    "label": "INDEMNITES DE MALADIE VERSEES AUX T",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "661600",
+    "label": "SUPPLEMENT FAMILIAL",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "661700",
+    "label": "AVANTAGES EN NATURE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "661800",
+    "label": "AUTRES REMUNERATIONS DIRECTES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "662000",
+    "label": "REMUNERATION DIRECT VERSEES PERSONN",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "662100",
+    "label": "APPOINTEMENT SALAIRES ET COMMISSION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "662200",
+    "label": "PRIMES ET GRATIFICATIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "662300",
+    "label": "CONGES PAYES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "662400",
+    "label": "INDEMNITES DE PREAVIS,LICENCIEMENT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "662500",
+    "label": "INDEMNITES DE MALADIE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "662600",
+    "label": "SUPPLEMENT FAMILIAL",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "662700",
+    "label": "AVANTAGE EN NATURE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "662800",
+    "label": "AUTRES REMUNERATIONS DIRECTES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "663000",
+    "label": "INDEMNITES FORFAITAIRES AU PERSNNEL",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "663100",
+    "label": "INDEMNITES DE LOGOMENT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "663200",
+    "label": "INDEMNITES DE REPRESENTATION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "663300",
+    "label": "INDEMNITES D'EXPATRIATION",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "663400",
+    "label": "INDEMNITES DE TRANSPORT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "663800",
+    "label": "AUTRES INDEMNITES ET AVANTAGES DIVE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "664000",
+    "label": "CHARGES SOCIALES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "664100",
+    "label": "CHARGES SUR REMU PERSN NATIONNAL",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "664200",
+    "label": "CHARGES SUR REMU PERNS NON NATIONNA",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "666000",
+    "label": "REMUNERAT° ET CHARGES SOCIAL EXPLOI",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "666100",
+    "label": "REMUNERAT° DU TRAVAIL DE L'EXPLOITA",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "666200",
+    "label": "CHARGES SOCIALES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "667000",
+    "label": "REMUNERAT° TRANSF PERSNNEL EXTERIEU",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "667100",
+    "label": "PERSONNEL INTERIMAIRE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "667200",
+    "label": "PERSONNEL DETACHE OU PRETE A ENTITE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "668000",
+    "label": "AUTRES CHARGES SOCIALES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "668100",
+    "label": "VERSMENT AUX SYNDICATS ET COMITE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "668200",
+    "label": "VERSEMENT COMITES HYGIENE ET SECURI",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "668300",
+    "label": "VERSEMENT AUTRES OEUVRES SOCIALES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "668400",
+    "label": "MEDECINE DU TRAVAIL ET PHARMACIE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "668500",
+    "label": "ASSURANCES ET ORGANISMES DE SANTE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "668600",
+    "label": "ASSURANCES RETRAITE ET FOND DE PENS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "668700",
+    "label": "MAJORAT° ET PENALITES SOCIALES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "668800",
+    "label": "CHARGES SOCIALES DIVERSES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "671000",
+    "label": "INTERETS DES EMPRUNTS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "671100",
+    "label": "EMPRUNTS OBLIGATAIRES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "671200",
+    "label": "EMPRUNTS/ ETABLISSEMENT DE CREDIT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "671300",
+    "label": "DETTES LIEES A DES PARTICIPATIONS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "671400",
+    "label": "PRIMES DE REMBOURSEMNT DES OBLIGAT°",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "672000",
+    "label": "INTERET DANS LOYERS LOCAT°-ACQUISIT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "672200",
+    "label": "CREDIT BAIL IMMOBILIER",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "672300",
+    "label": "CREDIT BAIL MOBILIER",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "672400",
+    "label": "LOCATION-VENTE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "672800",
+    "label": "INTERET DANS LOYERS DES AUTRES ACQU",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "673000",
+    "label": "ESCOMPTES ACCORDES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "674000",
+    "label": "AUTRES INTERETS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "674100",
+    "label": "AVANCES RECUES ET DEPOTS CREDITEURS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "674200",
+    "label": "COMPTES COURANTS BLOQUES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "674300",
+    "label": "INTERETS SUR OBLIGAT° CAUTIONNEES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "674400",
+    "label": "INTERETS SUR DETTES COMMERCIALES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "674500",
+    "label": "INTERET BANCAIRES ET OPERAT° DE FIN",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "674800",
+    "label": "INTERETS SUR DETTES DIVERSES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "675000",
+    "label": "ESCOMPTES DES EFFETS DE COMMERCE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "676000",
+    "label": "PERTES DE CHANGE FINANCIERES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "677000",
+    "label": "PERTES SUR TITRES DE PLACEMENT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "677100",
+    "label": "PERTE SUR CESSIONS DE TITRES DE PLA",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "677200",
+    "label": "MALIS PROVENANT D'ATTRUBUT° GRATUIT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "678000",
+    "label": "PERTES ET CHARGES/RISQUES FINANCIER",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "678100",
+    "label": "SUR RENTES VIAGERES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "678200",
+    "label": "SUR OPERATIONS FINANCIERES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "678400",
+    "label": "SUR INSTRUMENTS DE TRESORERIE",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "679000",
+    "label": "CHARGES POUR DEPRECIAT° ET PROVIS°",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "679100",
+    "label": "SUR RIQUES FINANCIERS",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "679500",
+    "label": "SUR TITRE DE PLACEMENT",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "679800",
+    "label": "AUTRES CHARGES POUR DEPRECIAT° ET P",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "681000",
+    "label": "DOTAT° AUX AMORTISSEMENT D'EXPLOITA",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "681200",
+    "label": "DOTAT° AUX AMORTI DES IMMO INCORPOR",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "681300",
+    "label": "DOTAT° AUX AMORTI DES IMMO CORPOREL",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "691000",
+    "label": "DOTAT°AUX PROVIS° ET DEPRECIAT° D'E",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "691100",
+    "label": "DOTAT° AUX PROV PR RISQUES ET CHARG",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "691300",
+    "label": "DOTAT° AUX DEPRE DES IMMO INCORP",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "691400",
+    "label": "DOTAT° AUX DEPRE DES IMMO CORPORELL",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "697000",
+    "label": "DOTAT° AUX PROV ET DEPREC FINANCIER",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "697100",
+    "label": "DOTAT° PROV RISQUES ET CHARGES",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "697200",
+    "label": "DOTAT° DEPRECIAT° DES IMMO FINANCI",
+    "class": "6",
+    "isStandard": true
+  },
+  {
+    "code": "701000",
+    "label": "VENTES DE MARCHANDISES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "701100",
+    "label": "VENTE DE MARCHANDISES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "701200",
+    "label": "HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "701300",
+    "label": "AUX ENTITES DU GROUPE,DANS LA REGIO",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "701400",
+    "label": "AUX ENTITES DU GROUPE HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "701500",
+    "label": "SUR INTERNET",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "701900",
+    "label": "RABAIS,REMISES,RISTOURNE ACCORDES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "702000",
+    "label": "VENTES DE PRODUITS FINIS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "702100",
+    "label": "DANS LA REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "702200",
+    "label": "HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "702300",
+    "label": "AUX ENTITES DU GROUPE DANS LA REGIO",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "702400",
+    "label": "AUX ENTITES DU GROUPE HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "702500",
+    "label": "SUR INTERNET",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "702900",
+    "label": "RABAIS,REMISES,RISTOURNES ACCORDES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "703000",
+    "label": "VENTE DE PRODUITS INTERMEDIAIRES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "703100",
+    "label": "DANS LA REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "703200",
+    "label": "HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "703300",
+    "label": "AUX ENTITES DU GROUPE DANS LA REGIO",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "703400",
+    "label": "AUX ENTITES DU GROUPE HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "703500",
+    "label": "SUR INTERNET",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "703900",
+    "label": "RABAIS,REMISE,RISTOURNES ACCORDES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "704000",
+    "label": "VENTES DES PRODUITS RESIDUELS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "704100",
+    "label": "DANS LA REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "704200",
+    "label": "HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "704300",
+    "label": "AUX ENTITES DU GROUPE DANS LA REGIO",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "704400",
+    "label": "AUX ENTITES DU GROUPE HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "704500",
+    "label": "SUR INTERNET",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "704900",
+    "label": "RABAIS,REMISES,RISTOURNES ACCORDES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "705000",
+    "label": "TRAVAUX FACTURES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "705100",
+    "label": "DANS LA REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "705200",
+    "label": "HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "705300",
+    "label": "AUX ENTITES DU GROUPE DANS LA REGIO",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "705400",
+    "label": "AUX ENTITES DU GROUPE HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "705500",
+    "label": "SUR INTERNET",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "705900",
+    "label": "RABAIS,REMISES,RISTOURNE ACCORDES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "706000",
+    "label": "SERVICES VENDUS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "706100",
+    "label": "DANS LA REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "706200",
+    "label": "HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "706300",
+    "label": "AUX ENTITES DU GROUPE DANS LA REGIO",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "706400",
+    "label": "AUX ENTITES DU GROUPE HORS REGION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "706500",
+    "label": "SUR INTERNET",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "706900",
+    "label": "RABAIS,REMISES,RISTOURNE ACCORDES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "707000",
+    "label": "PRODUITS ACCESSOIRES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "707100",
+    "label": "PORT,EMBALLAGES PERDUS ET AUTRES FR",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "707200",
+    "label": "COMMISSIONS ET COURTAGES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "707300",
+    "label": "LOCATIONS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "707400",
+    "label": "BONS SUR REPRISES ET CESSIONS D'EMB",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "707500",
+    "label": "MISE A DISPOSITION DE PERSONNEL",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "707600",
+    "label": "REDEVANCES PR BREVETS,LOGICIELS,MAR",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "707700",
+    "label": "SERVICES EXPLOITES DANS L'INTERET P",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "707800",
+    "label": "AUTRES PRODUITS ACCESSOIRES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "711000",
+    "label": "SUR PRODUITS A L'EXPORTATION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "712000",
+    "label": "SUR PRODUITS A L'IMPORTATION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "713000",
+    "label": "SUR PRODUITS DE PEREQUATION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "714000",
+    "label": "INDEMNITES ET SUBVENT° D'EXPLOITAT°",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "718000",
+    "label": "AUTRES SUBVENTIONS ,D'EXPLOITATION",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "718100",
+    "label": "VERSEES PAR L'ETAT ET COLLECTIVITES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "718200",
+    "label": "VERSEES PAR LES ORGANISMES INTERNAT",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "718300",
+    "label": "VERSEES PAR DES TITRES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "721000",
+    "label": "IMMOBILISATIONS INCORPORELLES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "722000",
+    "label": "IMMOBILISATIONS CORPORELLES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "722100",
+    "label": "HORS ACTIFS BIOLOGIQUES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "722200",
+    "label": "ACTIFS BIOLOGIQUES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "724000",
+    "label": "PRODUCTION AUTO-CONSOMMEE",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "726000",
+    "label": "IMMOBILISATION FINANCIERES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "734000",
+    "label": "VARIATION DES STOCKS BIENS ET SERVI",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "734100",
+    "label": "PRODUITS EN COURS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "734200",
+    "label": "TRAVAUX EN COURS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "735000",
+    "label": "VARIATIONS DES EN COURS DE SERVICES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "735100",
+    "label": "ETUDES EN COURS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "735200",
+    "label": "PRESTATIONS DE SERVICES EN COURS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "736000",
+    "label": "VARIAT° DES STOCKS DE PRODUITS FINI",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "737000",
+    "label": "VARIAT° DE STOCKS DE PRODUITS INTER",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "737100",
+    "label": "PRODUITS INTERMEDIAIRES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "737200",
+    "label": "PRODUITS RESIDUELS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "751000",
+    "label": "PROFIT SUR CREANCES CLIENTS ET DEBI",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "751400",
+    "label": "IMMOBILISATIONS INCORPORELLES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "752000",
+    "label": "QUOTE-PART DE RESULTATS/OPERAT° EN",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "752100",
+    "label": "QUOTE-PART TRANSFEREE PERTES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "752500",
+    "label": "BENEFICES ATTRIBUES PAR TRANSFERT",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "754000",
+    "label": "PRODUITS DES CESSIONS COURANTES IMM",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "754100",
+    "label": "IMMOBILISATIONS INCORPORELLES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "754200",
+    "label": "IMMOBILISATIONS CORPORELLES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "756000",
+    "label": "GAINS DE CHANGE/CREANCES ET DETTES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "758000",
+    "label": "PRODUITS DIVERS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "758100",
+    "label": "INDEMNITES DE FONCT° ET AUTRES REMU",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "758200",
+    "label": "INDEMNITES D'ASSURANCES RECUES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "758800",
+    "label": "AUTRES PRODUITS DIVERS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "759000",
+    "label": "REPRISES DE CHARGES PR DEPRECIAT°",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "759100",
+    "label": "SUR RISQUES A COURT TERME",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "759300",
+    "label": "SUR STOCKS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "759400",
+    "label": "SUR CREANCES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "759800",
+    "label": "SUR AUTRES CHARGES PR DERECIAT°",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "771000",
+    "label": "INTERETS DE PRETS ET CREANCES DIVER",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "771200",
+    "label": "INTERETS DE PRETS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "771300",
+    "label": "INTERETS SUR CREANCES DIVERSES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "772000",
+    "label": "REVENUS DE PARTICIPAT° ET AUTERES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "772100",
+    "label": "REVENUS DES TITRES DE PARTICIPAT°",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "772200",
+    "label": "REVENUS AUTRES TITRES IMMOBILISES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "773000",
+    "label": "ESCOMPTES OBTENUS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "774000",
+    "label": "REVENUS DE DEPLACEMENT",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "774500",
+    "label": "REVENUS DES OBLIGATIONS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "774600",
+    "label": "REVENUS DES TITRES DE PLACEMENTS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "775000",
+    "label": "INTERETS DANS LOYERS DE LOCAT°-ACQU",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "776000",
+    "label": "GAINS DE CHANGE FINANCIERS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "777000",
+    "label": "GAINS SUR CESS° TITRES PLACEMENT",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "778000",
+    "label": "GAINS SUR RISQUES FINANCIERS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "778100",
+    "label": "SUR RENTES VIAGERES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "778200",
+    "label": "SUR OPERATIONS FINANCIERES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "778400",
+    "label": "SUR INSTRUMENTS DE TRESORERIE",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "779000",
+    "label": "REPRISES DE CHARGES PR DEPRECIAT°..",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "779100",
+    "label": "SUR RISQUES FINANCIERS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "779500",
+    "label": "SUR TITRES DE PLACEMENT",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "779800",
+    "label": "SUR AUTRES CHRGES PR DEPRECIAT°...",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "781000",
+    "label": "TRANSFERT DE CHRGES D'EXPLOITAT°",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "787000",
+    "label": "TRANSFERTS DE CHARGES FINANCIERES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "791000",
+    "label": "REPRISES DE PROVIS°/DEPRECIAT° D'EX",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "791100",
+    "label": "POUR RISQUES ET CHARGES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "791300",
+    "label": "DES IMMOBILISATIONS INCORPORELLES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "791400",
+    "label": "DES IMMOBILISATIONS CORPORELLES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "797000",
+    "label": "REPRISES DE PROVIS°/DEPRECIAT° FINA",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "797100",
+    "label": "POUR RISQUES ET CHARGES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "797200",
+    "label": "DES IMMOBILISATIONS FINANCIERES",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "798000",
+    "label": "REPRISES D'AMORTISSEMENTS",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "799000",
+    "label": "REPRISES DES SUBVENTIONS D'INVESTI",
+    "class": "7",
+    "isStandard": true
+  },
+  {
+    "code": "811000",
+    "label": "IMMOBILISATIONS INCORPORELLES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "812000",
+    "label": "IMMOBILISATIONS CORPORELLES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "816000",
+    "label": "IMMOBILOSATIONS FINANCIERES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "831000",
+    "label": "CHARGES H.A.O CONSTATEES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "833000",
+    "label": "CHARGES LIEES AUX OPERATIONS DE RES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "834000",
+    "label": "PERTES SUR CREANCES H.A.O",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "835000",
+    "label": "DONS ET LIBERALITES ACCORDES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "836000",
+    "label": "ABANDONS DE CREANCES PR DEPRECIAT°",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "841000",
+    "label": "PRODUITS H.A.O CONSTATES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "843000",
+    "label": "PRODUITS LIES AUX OPERAT° DE RESTRU",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "844000",
+    "label": "INDEMNITES/SUBVENTIONS H.A.O",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "845000",
+    "label": "DONS ET LIBERALITES OBTENUS",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "846000",
+    "label": "ABANDONS DE CREANCES OBTENUS",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "847000",
+    "label": "PRODUITS LIES AUX OPERAT° DE LIQUID",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "848000",
+    "label": "TRANSFERT CHARGES H.A.O",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "849000",
+    "label": "REPRISES DE CHARGES PR DEPRECIAT°/P",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "851000",
+    "label": "DOTAT° AUX PROVISIONS REGLEME",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "852000",
+    "label": "DOTAT° AUX AMORTISSEMENT REGLEME",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "853000",
+    "label": "DOTAT° AUX DEPRECIAT° H.A.O",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "854000",
+    "label": "DOTAT° AUX PROV SUR RISQUES/CHARGES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "858000",
+    "label": "AUTRES DOTAT° H.A.O",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "861000",
+    "label": "REPRISES DE PROVIS° REGLEMENTEES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "862000",
+    "label": "REPRISES AMORTISSEMENTS H.A.O",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "863000",
+    "label": "REPRISES DE DEPRECIAT° H.A.O",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "864000",
+    "label": "REPRISES DE PROV PR RISQUES/CHARGES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "868000",
+    "label": "AUTRES REPRISES H.A.O",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "871000",
+    "label": "PARTICIPAT° LEGALE AUX BENEFICES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "874000",
+    "label": "PARTICIPAT° CONTRACTUELLE AUX BENEF",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "878000",
+    "label": "AUTRES PARTICIPATIONS",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "881000",
+    "label": "ETAT",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "884000",
+    "label": "COLLECTIVITES PUBLIQUES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "886000",
+    "label": "GROUPE",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "888000",
+    "label": "AUTRES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "891000",
+    "label": "IMPOTS SUR BENEFICES DE L'EXERCICES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "891100",
+    "label": "ACTIVITES EXERCEES DANS L'ETAT",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "891200",
+    "label": "ACTIVITES EXERCEES AUTRES ETAT REGI",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "891300",
+    "label": "ACTIVITES EXERCEES HORS REGION",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "892000",
+    "label": "RAPPELS D'IMPOTS/RESULTATS ANTERIEU",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "895000",
+    "label": "IMPOT MINIMUM FORFAITAIRE I.M.F",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "899000",
+    "label": "DEGREVEMENTS/ANNULAT° IMPOT RESULTA",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "899100",
+    "label": "DEGREVEMENTS",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "899400",
+    "label": "ANNULAT° PR PERTES RETROACTIVES",
+    "class": "8",
+    "isStandard": true
+  },
+  {
+    "code": "901000",
+    "label": "ENGAGEMENTS DE FINANCEMENT OBTENUS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "901100",
+    "label": "CREDITS CONFIRMES OBTENUS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "901200",
+    "label": "EMPRUNTS RESTANT A ENCAISSER",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "901300",
+    "label": "FACILITES DE FINANCEMENT RENOUVELAB",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "901400",
+    "label": "FACILITES D'EMISSION",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "901800",
+    "label": "AUTRES ENGAGEMENTS DE FINAN OBTENUS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "902100",
+    "label": "AVALS OBTENUS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "902200",
+    "label": "CAUTIONS,GARANTIES OBTENUES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "902300",
+    "label": "HYPOTHEQUES OBTENUES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "902400",
+    "label": "EFFETS ENDOSSES PAR DES TIERS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "902800",
+    "label": "AUTRES GARENTIES OBTENUES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "903000",
+    "label": "ENGAGEMENTS RECIPROQUES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "903100",
+    "label": "ACHATS DE MARCHANDISES A TERME",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "903200",
+    "label": "ACHATS A TERME DE DIVERSES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "903300",
+    "label": "COMMANDES FERMES DES CLENTS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "903800",
+    "label": "AUTRES ENGAGEMENTS RECIPROQUES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "904000",
+    "label": "AUTRES ENGAGEMENTS OBTENUS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "904100",
+    "label": "ABANDONS DE CREANCES CONDITIONNELS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "904300",
+    "label": "VENTES AVC CLAUSE DE RESERVE DE PRO",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "904800",
+    "label": "DIVERS ENGAGEMENTS OBTENUS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "905000",
+    "label": "ENGAGEMENTS DE FINAN ACCORDES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "905100",
+    "label": "CREDIT ACCORDES NON DECAISSES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "905800",
+    "label": "AUTRES ENGAGEMENTS FINAN ACCORDES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "906000",
+    "label": "ENGAGEMENTS DE GARANTIES ACCORDES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "906100",
+    "label": "AVALS ACCORDES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "906200",
+    "label": "CAUTIONS,GARANTIES ACCORDEES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "906300",
+    "label": "HYPOTHEQUES ACCORDEES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "906400",
+    "label": "EFFETS ENDOSSES PAR L'IDENTITE",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "906800",
+    "label": "AUTRES GARENTIES ACCORDEES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "907000",
+    "label": "ENGAGEMENTS RECIPROQUES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "907100",
+    "label": "VENTES DE MARCHANDISES A TERME",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "907200",
+    "label": "VENTES A TERME DE DEVISES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "907300",
+    "label": "COMMANDES FERMES AUX FOURNISSEURS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "907800",
+    "label": "AUTRES ENGAGEMENTS RECIPROQUES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "908000",
+    "label": "AUTRES ENGAGEMENTS ACCORDES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "908100",
+    "label": "ANNULATIONS CONDITIONNELLES DE DETT",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "908200",
+    "label": "ENGAGEMENTS DE RETRAITE",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "908300",
+    "label": "ACHATS AVC CLAUSE DE RESERVE DE PRO",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "908800",
+    "label": "DIVERS ENGAGEMENTS ACCORDES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "911000",
+    "label": "CONTREPARTIES ENGAGEMENTS OBTENUS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "912000",
+    "label": "CONTREPARTIES ENGAGEMENTS OBTENUS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "913000",
+    "label": "CONTREPARTIES ENGAGEMENTS OBTENUS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "914000",
+    "label": "CONTREPARTIES ENGAGEMENTS OBTENUS",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "915000",
+    "label": "CONTREPARTIES ENGAGEMENTS ACCORDES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "916000",
+    "label": "CONTREPARTIES ENGAGEMENTS ACCORDES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "917000",
+    "label": "CONTREPARTIES ENGAGEMENTS ACCORDES",
+    "class": "9",
+    "isStandard": true
+  },
+  {
+    "code": "918000",
+    "label": "CONTREPARTIES ENGAGEMENTS ACCORDES",
+    "class": "9",
+    "isStandard": true
+  }
+]
