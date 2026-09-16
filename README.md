@@ -39,8 +39,12 @@ DATABASE_URL=postgresql://postgres:postgres@localhost:5432/mlexpert_test npm run
 
 Ce test installe la migration Supabase, simule `auth.uid()` et vérifie au niveau base que :
 
-- un comptable affecté à une seule entreprise ne voit pas les autres entreprises du même cabinet ;
-- une organisation suspendue ne peut plus créer d’écritures.
+- un comptable ou lecteur affecté à une seule entreprise ne voit pas les autres entreprises ;
+- un lecteur ne voit pas les affectations d’autres utilisateurs ;
+- une affectation lecture seule ne peut pas créer d’écritures ;
+- une organisation suspendue ne peut plus créer d’écritures ;
+- `anon` ne voit aucune donnée même si des grants SQL existent ;
+- `service_role` conserve le contournement RLS attendu côté serveur uniquement.
 
 ## Règles importantes
 

@@ -15,3 +15,13 @@
 ## Régression automatisée
 
 Le fichier `supabase/tests/rls_regression.sql` est exécuté en CI sur PostgreSQL avec un shim `auth.uid()` pour vérifier les policies au niveau base de données, pas seulement dans le code applicatif.
+
+Cas couverts actuellement :
+
+- isolation inter-cabinets ;
+- affectation explicite des entreprises ;
+- restriction des affectations visibles aux administrateurs ou à l’utilisateur concerné ;
+- blocage des mutations sur abonnement suspendu ;
+- blocage des écritures pour les affectations lecture seule ;
+- absence d’accès `anon` malgré les grants SQL ;
+- contournement RLS attendu uniquement par `service_role`.

@@ -191,6 +191,34 @@ as $$
   );
 $$;
 
+create or replace function current_user_has_company_permission(target_company_id uuid, target_permission text)
+returns boolean
+language sql
+stable
+security definer
+set search_path = public
+as $$
+  select exists (
+    select 1
+    from companies company
+    join organization_members membership
+      on membership.organization_id = company.organization_id
+     and membership.user_id = auth.uid()
+     and membership.disabled_at is null
+    where company.id = target_company_id
+      and (
+        membership.role in ('owner', 'admin')
+        or exists (
+          select 1
+          from company_members access
+          where access.company_id = company.id
+            and access.user_id = auth.uid()
+            and target_permission = any(access.permissions)
+        )
+      )
+  );
+$$;
+
 create or replace function current_organization_accepts_mutations(target_organization_id uuid)
 returns boolean
 language sql
@@ -263,9 +291,13 @@ create policy "admins can manage companies in their cabinet"
     and current_organization_accepts_mutations(organization_id)
   );
 
-create policy "members can read company assignments"
+create policy "admins can read company assignments"
   on company_members for select
-  using (current_user_is_org_member(organization_id));
+  using (current_user_is_org_admin(organization_id));
+
+create policy "users can read their own company assignments"
+  on company_members for select
+  using (user_id = auth.uid());
 
 create policy "admins can manage company assignments"
   on company_members for all
@@ -334,7 +366,7 @@ create policy "authorized users can create draft entries"
   with check (
     status = 'draft'
     and current_organization_accepts_mutations(organization_id)
-    and current_user_can_access_company(company_id)
+    and current_user_has_company_permission(company_id, 'entry:create')
   );
 
 create policy "authorized users can update draft entries"
@@ -342,12 +374,12 @@ create policy "authorized users can update draft entries"
   using (
     status = 'draft'
     and current_organization_accepts_mutations(organization_id)
-    and current_user_can_access_company(company_id)
+    and current_user_has_company_permission(company_id, 'entry:update')
   )
   with check (
     status = 'draft'
     and current_organization_accepts_mutations(organization_id)
-    and current_user_can_access_company(company_id)
+    and current_user_has_company_permission(company_id, 'entry:update')
   );
 
 create policy "authorized users can read entry lines"
@@ -370,7 +402,7 @@ create policy "authorized users can manage draft entry lines"
       where entry.id = entry_lines.entry_id
         and entry.status = 'draft'
         and current_organization_accepts_mutations(entry.organization_id)
-        and current_user_can_access_company(entry.company_id)
+        and current_user_has_company_permission(entry.company_id, 'entry:update')
     )
   )
   with check (
@@ -380,6 +412,6 @@ create policy "authorized users can manage draft entry lines"
       where entry.id = entry_lines.entry_id
         and entry.status = 'draft'
         and current_organization_accepts_mutations(entry.organization_id)
-        and current_user_can_access_company(entry.company_id)
+        and current_user_has_company_permission(entry.company_id, 'entry:update')
     )
   );
