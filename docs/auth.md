@@ -17,4 +17,4 @@ MLexpert utilise Supabase Auth email/mot de passe pour l’identité utilisateur
 - `accountant` et `reader` doivent être affectés explicitement aux entreprises.
 - `reader` peut lire/exporter/consulter les pièces jointes autorisées, mais ne peut pas créer/modifier/valider.
 - `disabled_at` retire l’accès au cabinet et aux entreprises via les helpers RLS.
-- Les routes `/entreprises` et `/administration` sont protégées côté garde applicative MVP et refusent les sessions anonymes.
+- Les routes `/entreprises` et `/administration` sont protégées par `apps/web/proxy.ts` et redirigent les sessions anonymes vers `/login?next=...`.
