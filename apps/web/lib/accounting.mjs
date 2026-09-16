@@ -1,32 +1,11 @@
-export type EntryLine = {
-  account: string;
-  label: string;
-  debit: number;
-  credit: number;
-};
-
-export type EntryStatus = 'draft' | 'validated' | 'reversed';
-
-export type AccountingEntry = {
-  id: string;
-  label: string;
-  lines: EntryLine[];
-  status: EntryStatus;
-  immutable: boolean;
-  totals: { debit: number; credit: number; difference: number };
-  createdAt: Date;
-  validatedAt?: Date;
-  reversalOfEntryId?: string;
-};
-
-export function lineIsValid(line: EntryLine): boolean {
+export function lineIsValid(line) {
   const debit = Number(line.debit || 0);
   const credit = Number(line.credit || 0);
   if (debit < 0 || credit < 0) return false;
   return (debit > 0 && credit === 0) || (credit > 0 && debit === 0);
 }
 
-export function totals(lines: EntryLine[]) {
+export function totals(lines) {
   const total = lines.reduce(
     (acc, line) => ({ debit: acc.debit + Number(line.debit || 0), credit: acc.credit + Number(line.credit || 0) }),
     { debit: 0, credit: 0 }
@@ -34,18 +13,18 @@ export function totals(lines: EntryLine[]) {
   return { ...total, difference: total.debit - total.credit };
 }
 
-export function isBalanced(lines: EntryLine[]): boolean {
+export function isBalanced(lines) {
   if (lines.length < 2) return false;
   if (!lines.every(lineIsValid)) return false;
   const total = totals(lines);
   return total.debit > 0 && total.difference === 0;
 }
 
-export function canValidateEntry(lines: EntryLine[], fiscalYearClosed: boolean): boolean {
+export function canValidateEntry(lines, fiscalYearClosed) {
   return !fiscalYearClosed && isBalanced(lines);
 }
 
-export function createDraftEntry({ id, lines, label, createdAt = new Date() }: { id: string; lines: EntryLine[]; label: string; createdAt?: Date }): AccountingEntry {
+export function createDraftEntry({ id, lines, label, createdAt = new Date() }) {
   return {
     id,
     label,
@@ -57,12 +36,12 @@ export function createDraftEntry({ id, lines, label, createdAt = new Date() }: {
   };
 }
 
-export function updateDraftEntry({ entry, lines }: { entry: AccountingEntry; lines: EntryLine[] }): AccountingEntry {
+export function updateDraftEntry({ entry, lines }) {
   if (entry.status === 'validated' || entry.immutable) throw new Error('validated entries are immutable');
   return { ...entry, lines, totals: totals(lines) };
 }
 
-export function validateEntry({ entry, validatedAt = new Date() }: { entry: AccountingEntry; validatedAt?: Date }): AccountingEntry {
+export function validateEntry({ entry, validatedAt = new Date() }) {
   if (!isBalanced(entry.lines)) throw new Error('entry is not balanced');
   return {
     ...entry,
@@ -73,7 +52,7 @@ export function validateEntry({ entry, validatedAt = new Date() }: { entry: Acco
   };
 }
 
-export function createReversalEntry({ entry, id, createdAt = new Date() }: { entry: AccountingEntry; id: string; createdAt?: Date }): AccountingEntry {
+export function createReversalEntry({ entry, id, createdAt = new Date() }) {
   if (entry.status !== 'validated') throw new Error('only validated entries can be reversed');
   const reversal = createDraftEntry({
     id,
@@ -88,6 +67,6 @@ export function createReversalEntry({ entry, id, createdAt = new Date() }: { ent
   return { ...reversal, reversalOfEntryId: entry.id };
 }
 
-export function filterOfficialEntries(entries: AccountingEntry[]): AccountingEntry[] {
+export function filterOfficialEntries(entries) {
   return entries.filter((entry) => entry.status === 'validated' || entry.status === 'reversed');
 }
