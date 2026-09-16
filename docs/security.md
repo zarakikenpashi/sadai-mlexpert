@@ -6,7 +6,7 @@
 - Les comptes `owner`/`admin` voient toutes les entreprises de leur cabinet.
 - Les comptes `accountant`/`reader` doivent être affectés explicitement à une entreprise.
 - Un abonnement `suspended` ou `terminated` bloque les mutations base de données ; les lectures/exports restent autorisés selon les permissions.
-- `SUPABASE_SERVICE_ROLE_KEY` uniquement côté serveur.
+- SUPABASE_SERVICE_ROLE_KEY uniquement côté serveur ; ne jamais exposer cette clé au navigateur.
 - Pièces jointes en bucket privé `entry-attachments`, jamais en bucket public.
 - Aucune URL publique permanente pour les justificatifs ; seulement des chemins privés et des liens signés temporaires côté serveur.
 - Formats autorisés pour les justificatifs : PDF, JPG/JPEG, PNG ; taille maximale MVP : 10 Mo.

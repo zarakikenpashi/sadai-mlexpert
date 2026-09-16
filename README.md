@@ -34,7 +34,7 @@ L’application web est dans `apps/web`.
 La CI lance un PostgreSQL éphémère et exécute `supabase/tests/rls_regression.sql` via :
 
 ```bash
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/mlexpert_test npm run test:rls
+DATABASE_URL="postgresql://postgres:<password>@localhost:5432/mlexpert_test" npm run test:rls
 ```
 
 Ce test installe la migration Supabase, simule `auth.uid()` et vérifie au niveau base que :
