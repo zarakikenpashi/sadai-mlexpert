@@ -13,6 +13,7 @@ test('Docker assets include production hardening, healthcheck and CI image build
 
   assert.match(dockerfile, /USER\s+nextjs/);
   assert.match(dockerfile, /HEALTHCHECK/);
+  assert.doesNotMatch(dockerfile, /apps\/web\/node_modules/);
   assert.match(compose, /healthcheck:/);
   assert.match(compose, /NEXT_PUBLIC_SUPABASE_URL/);
   assert.match(ci, /docker build -t sadai-mlexpert:ci-check \./);
