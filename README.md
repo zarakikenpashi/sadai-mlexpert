@@ -29,6 +29,16 @@ npm run dev
 
 L’application web est dans `apps/web`.
 
+## Couche applicative Supabase
+
+L’application sépare explicitement les usages Supabase :
+
+- `apps/web/lib/supabase-config.ts` valide les variables requises.
+- `apps/web/lib/supabase-client.ts` expose un client navigateur anon et un client serveur service-role.
+- `apps/web/lib/supabase-repositories.ts` centralise les lectures MVP typées : entreprises visibles, exercices, journaux, écritures et lignes.
+
+Règle de sécurité : `SUPABASE_SERVICE_ROLE_KEY` reste uniquement côté serveur et n’est jamais exposée aux composants navigateur.
+
 ## Tests sécurité RLS
 
 La CI lance un PostgreSQL éphémère et exécute `supabase/tests/rls_regression.sql` via :
