@@ -6,14 +6,16 @@ import test from 'node:test';
 const root = resolve(process.cwd(), '../..');
 const read = (path) => readFileSync(resolve(root, path), 'utf8');
 
-test('Docker assets include production hardening and healthcheck', () => {
+test('Docker assets include production hardening, healthcheck and CI image build', () => {
   const dockerfile = read('Dockerfile');
   const compose = read('docker-compose.yml');
+  const ci = read('.github/workflows/ci.yml');
 
   assert.match(dockerfile, /USER\s+nextjs/);
   assert.match(dockerfile, /HEALTHCHECK/);
   assert.match(compose, /healthcheck:/);
   assert.match(compose, /NEXT_PUBLIC_SUPABASE_URL/);
+  assert.match(ci, /docker build -t sadai-mlexpert:ci-check \./);
 });
 
 test('env example is complete and contains no real secrets', () => {

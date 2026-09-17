@@ -35,4 +35,5 @@ jobs:
       - run: npm run typecheck
       - run: npm run build
       - run: npm run test
-      - run: DATABASE_URL="postgresql://postgres:${POSTGRES_PASSWORD}@localhost:5432/mlexpert_test" npm run test:rls
+      - run: DATABASE_URL="postgresql://postgres:postgres@localhost:5432/mlexpert_test" npm run test:rls
+      - run: docker build -t sadai-mlexpert:ci-check .
